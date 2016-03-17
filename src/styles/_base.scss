@@ -1,0 +1,72 @@
+// Settings go here
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 70px;
+}
+footer {
+  padding: 30px 0;
+}
+
+.navbar-inverse {
+  background: #02aff3;
+  border: 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+  color: black;
+  background-color: white;
+}
+
+.badge {
+  background: #000;
+  color: #fff;
+}
+
+.cat {
+  padding-bottom: 14px;
+}
+
+.btn-hidden {
+  visibility: hidden;
+}
+
+.media-object { width: 72px; height: 72px; }
+.col-md-1.center { text-align: center }
+
+
+/* ABOUT MODAL */
+
+#about p {
+  text-align: left;
+  line-height: 1.4em;
+}
+
+#about ol {
+  margin-left: 30px;
+}
+
+#about li {
+  text-align: left;
+  list-style: decimal;
+}
+
+.modal-body {
+  overflow: auto;
+  height: 300px;
+}
+
+#checkout-qr p {
+  margin-bottom: 3px;
+}
+
