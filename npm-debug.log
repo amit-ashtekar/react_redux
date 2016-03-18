@@ -1,0 +1,1801 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'react-modal',
+1 verbose cli   '--save' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\package.json
+5 warn package.json react-redux-jwt-auth-example@0.1.0 No repository field.
+6 warn package.json react-redux-jwt-auth-example@0.1.0 No README data
+7 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\autoprefixer\package.json
+8 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\autoprefixer-loader\package.json
+9 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\babel\package.json
+10 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\babel-core\package.json
+11 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\babel-eslint\package.json
+12 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\babel-loader\package.json
+13 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\babel-plugin-react-transform\package.json
+14 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\babel-runtime\package.json
+15 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\body-parser\package.json
+16 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\chai\package.json
+17 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\chai-as-promised\package.json
+18 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\css-loader\package.json
+19 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\dotenv\package.json
+20 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\errorhandler\package.json
+21 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\es6-promise\package.json
+22 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\eslint\package.json
+23 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\eslint-config-airbnb\package.json
+24 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\eslint-plugin-react\package.json
+25 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\expect\package.json
+26 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\express\package.json
+27 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\extract-text-webpack-plugin\package.json
+28 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\file-loader\package.json
+29 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\history\package.json
+30 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\html-webpack-plugin\package.json
+31 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\isomorphic-fetch\package.json
+32 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\istanbul\package.json
+33 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\jsdom\package.json
+34 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\jsonwebtoken\package.json
+35 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\jwt-decode\package.json
+36 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\karma\package.json
+37 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\karma-chai\package.json
+38 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\karma-chai-as-promised\package.json
+39 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\karma-coverage\package.json
+40 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\karma-mocha\package.json
+41 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\karma-phantomjs-launcher\package.json
+42 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\karma-sinon-chai\package.json
+43 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\karma-spec-reporter\package.json
+44 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\karma-webpack\package.json
+45 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\lolex\package.json
+46 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\method-override\package.json
+47 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\mocha\package.json
+48 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\nock\package.json
+49 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\node-sass\package.json
+50 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\phantomjs\package.json
+51 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\phantomjs-polyfill\package.json
+52 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react\package.json
+53 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-addons-test-utils\package.json
+54 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-bootstrap\package.json
+55 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-dom\package.json
+56 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-mixin\package.json
+57 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-redux\package.json
+58 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-router\package.json
+59 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-transform-catch-errors\package.json
+60 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-transform-hmr\package.json
+61 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\redbox-react\package.json
+62 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\redux\package.json
+63 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\redux-devtools\package.json
+64 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\redux-devtools-dock-monitor\package.json
+65 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\redux-devtools-log-monitor\package.json
+66 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\redux-logger\package.json
+67 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\redux-router\package.json
+68 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\redux-thunk\package.json
+69 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\sass-loader\package.json
+70 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\sinon\package.json
+71 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\sinon-chai\package.json
+72 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\style-loader\package.json
+73 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\url-loader\package.json
+74 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\webpack\package.json
+75 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\webpack-dev-middleware\package.json
+76 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\webpack-dev-server\package.json
+77 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\webpack-hot-middleware\package.json
+78 verbose installManyTop reading scoped package data from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\yargs\package.json
+79 info package.json webpack-dev-middleware@1.5.1 No license field.
+80 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\package.json
+81 silly cache add args [ 'react-modal', null ]
+82 verbose cache add spec react-modal
+83 silly cache add parsed spec { raw: 'react-modal',
+83 silly cache add   scope: null,
+83 silly cache add   name: 'react-modal',
+83 silly cache add   rawSpec: '',
+83 silly cache add   spec: '*',
+83 silly cache add   type: 'range' }
+84 silly addNamed react-modal@*
+85 verbose addNamed "*" is a valid semver range for react-modal
+86 silly addNameRange { name: 'react-modal', range: '*', hasData: false }
+87 silly mapToRegistry name react-modal
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/react-modal
+91 verbose addNameRange registry:https://registry.npmjs.org/react-modal not in flight; fetching
+92 verbose request uri https://registry.npmjs.org/react-modal
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 6:25:59 PM
+95 verbose request id 863f6d2df00ee7fc
+96 verbose etag "C1L9TCTQXJO5S013YKPLBTM1S"
+97 http request GET https://registry.npmjs.org/react-modal
+98 http 304 https://registry.npmjs.org/react-modal
+99 silly get cb [ 304,
+99 silly get   { date: 'Thu, 17 Mar 2016 12:55:59 GMT',
+99 silly get     via: '1.1 varnish',
+99 silly get     'cache-control': 'max-age=300',
+99 silly get     etag: '"C1L9TCTQXJO5S013YKPLBTM1S"',
+99 silly get     age: '0',
+99 silly get     connection: 'keep-alive',
+99 silly get     'x-served-by': 'cache-sin6920-SIN',
+99 silly get     'x-cache': 'HIT',
+99 silly get     'x-cache-hits': '1',
+99 silly get     'x-timer': 'S1458219359.758173,VS0,VE1036',
+99 silly get     vary: 'Accept' } ]
+100 verbose etag https://registry.npmjs.org/react-modal from cache
+101 verbose get saving react-modal to C:\Users\amita\AppData\Roaming\npm-cache\registry.npmjs.org\react-modal\.cache.json
+102 silly addNameRange number 2 { name: 'react-modal', range: '*', hasData: true }
+103 silly addNameRange versions [ 'react-modal',
+103 silly addNameRange   [ '0.0.0',
+103 silly addNameRange     '0.0.1',
+103 silly addNameRange     '0.0.2',
+103 silly addNameRange     '0.0.3',
+103 silly addNameRange     '0.0.4',
+103 silly addNameRange     '0.0.5',
+103 silly addNameRange     '0.0.6',
+103 silly addNameRange     '0.0.7',
+103 silly addNameRange     '0.1.0',
+103 silly addNameRange     '0.1.1',
+103 silly addNameRange     '0.2.0',
+103 silly addNameRange     '0.3.0',
+103 silly addNameRange     '0.5.0',
+103 silly addNameRange     '0.6.0',
+103 silly addNameRange     '0.6.1' ] ]
+104 silly addNamed react-modal@0.6.1
+105 verbose addNamed "0.6.1" is a plain semver version for react-modal
+106 silly cache afterAdd react-modal@0.6.1
+107 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\react-modal\0.6.1\package\package.json not in flight; writing
+108 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\react-modal\0.6.1\package\package.json written
+109 silly install resolved [ { name: 'react-modal',
+109 silly install resolved     version: '0.6.1',
+109 silly install resolved     description: 'Accessible modal dialog component for React.JS',
+109 silly install resolved     main: './lib/index',
+109 silly install resolved     repository:
+109 silly install resolved      { type: 'git',
+109 silly install resolved        url: 'git+https://github.com/rackt/react-modal.git' },
+109 silly install resolved     homepage: 'https://github.com/rackt/react-modal',
+109 silly install resolved     bugs: { url: 'https://github.com/rackt/react-modal/issues' },
+109 silly install resolved     directories: { example: 'examples' },
+109 silly install resolved     scripts:
+109 silly install resolved      { test: 'scripts/test --browsers Firefox --single-run',
+109 silly install resolved        start: 'scripts/dev-examples' },
+109 silly install resolved     authors: [ 'Ryan Florence' ],
+109 silly install resolved     license: 'MIT',
+109 silly install resolved     devDependencies:
+109 silly install resolved      { browserify: '11.1.0',
+109 silly install resolved        'browserify-shim': '3.8.10',
+109 silly install resolved        envify: '3.4.0',
+109 silly install resolved        expect: '1.10.0',
+109 silly install resolved        'jsx-loader': '0.13.2',
+109 silly install resolved        karma: '0.13.10',
+109 silly install resolved        'karma-browserify': '^4.2.1',
+109 silly install resolved        'karma-chrome-launcher': '0.2.0',
+109 silly install resolved        'karma-cli': '0.1.0',
+109 silly install resolved        'karma-firefox-launcher': '0.1.6',
+109 silly install resolved        'karma-mocha': '0.2.0',
+109 silly install resolved        'karma-safari-launcher': '^0.1.1',
+109 silly install resolved        mocha: '2.3.3',
+109 silly install resolved        'react-addons-test-utils': '^0.14.0',
+109 silly install resolved        'react-dom': '^0.14.0',
+109 silly install resolved        react: '^0.14.0',
+109 silly install resolved        reactify: '^1.1.1',
+109 silly install resolved        'rf-release': '0.4.0',
+109 silly install resolved        'uglify-js': '2.4.24',
+109 silly install resolved        'webpack-dev-server': '1.11.0' },
+109 silly install resolved     dependencies:
+109 silly install resolved      { 'element-class': '^0.2.0',
+109 silly install resolved        exenv: '1.2.0',
+109 silly install resolved        'lodash.assign': '^3.2.0' },
+109 silly install resolved     peerDependencies: { react: '^0.14.0' },
+109 silly install resolved     tags: [ 'react', 'modal', 'dialog' ],
+109 silly install resolved     keywords: [ 'react', 'react-component', 'modal', 'dialog' ],
+109 silly install resolved     'browserify-shim': { react: 'global:React', 'react-dom': 'global:ReactDOM' },
+109 silly install resolved     gitHead: '1a0a069a7f91aa660433bdfa410636d4e3d81fcf',
+109 silly install resolved     _id: 'react-modal@0.6.1',
+109 silly install resolved     _shasum: '286444d80f3ae8a0aceba970371c9c73aa812849',
+109 silly install resolved     _from: 'react-modal@*',
+109 silly install resolved     _npmVersion: '2.14.3',
+109 silly install resolved     _nodeVersion: '3.3.1',
+109 silly install resolved     _npmUser: { name: 'mzabriskie', email: 'mzabriskie@gmail.com' },
+109 silly install resolved     maintainers: [ [Object], [Object] ],
+109 silly install resolved     dist:
+109 silly install resolved      { shasum: '286444d80f3ae8a0aceba970371c9c73aa812849',
+109 silly install resolved        tarball: 'http://registry.npmjs.org/react-modal/-/react-modal-0.6.1.tgz' },
+109 silly install resolved     _resolved: 'https://registry.npmjs.org/react-modal/-/react-modal-0.6.1.tgz',
+109 silly install resolved     readme: 'ERROR: No README data found!' } ]
+110 info install react-modal@0.6.1 into F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+111 info installOne react-modal@0.6.1
+112 verbose installOne of react-modal to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux not in flight; installing
+113 verbose lock using C:\Users\amita\AppData\Roaming\npm-cache\_locks\react-modal-57ab1d4233d942d1.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal
+114 silly install write writing react-modal 0.6.1 to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal
+115 verbose unbuild node_modules\react-modal
+116 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal is being purged from base F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+117 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal
+118 verbose tar unpack C:\Users\amita\AppData\Roaming\npm-cache\react-modal\0.6.1\package.tgz
+119 verbose tar unpacking to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal
+120 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal is being purged
+121 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal
+122 silly gunzTarPerm modes [ '777', '666' ]
+123 silly gunzTarPerm extractEntry package.json
+124 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+125 silly gunzTarPerm extractEntry .npmignore
+126 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+127 silly gunzTarPerm extractEntry README.md
+128 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+129 silly gunzTarPerm extractEntry LICENSE
+130 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+131 silly gunzTarPerm extractEntry webpack.config.js
+132 silly gunzTarPerm modified mode [ 'webpack.config.js', 420, 438 ]
+133 silly gunzTarPerm extractEntry .travis.yml
+134 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+135 silly gunzTarPerm extractEntry UPGRADE_GUIDE.md
+136 silly gunzTarPerm modified mode [ 'UPGRADE_GUIDE.md', 420, 438 ]
+137 silly gunzTarPerm extractEntry CHANGELOG.md
+138 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+139 silly gunzTarPerm extractEntry eslint.json
+140 silly gunzTarPerm modified mode [ 'eslint.json', 420, 438 ]
+141 silly gunzTarPerm extractEntry lib/index.js
+142 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+143 silly gunzTarPerm extractEntry lib/components/Modal.js
+144 silly gunzTarPerm modified mode [ 'lib/components/Modal.js', 420, 438 ]
+145 silly gunzTarPerm extractEntry lib/components/ModalPortal.js
+146 silly gunzTarPerm modified mode [ 'lib/components/ModalPortal.js', 420, 438 ]
+147 silly gunzTarPerm extractEntry lib/helpers/ariaAppHider.js
+148 silly gunzTarPerm modified mode [ 'lib/helpers/ariaAppHider.js', 420, 438 ]
+149 silly gunzTarPerm extractEntry lib/helpers/defaultStyles.js
+150 silly gunzTarPerm modified mode [ 'lib/helpers/defaultStyles.js', 420, 438 ]
+151 silly gunzTarPerm extractEntry lib/helpers/focusManager.js
+152 silly gunzTarPerm modified mode [ 'lib/helpers/focusManager.js', 420, 438 ]
+153 silly gunzTarPerm extractEntry lib/helpers/scopeTab.js
+154 silly gunzTarPerm modified mode [ 'lib/helpers/scopeTab.js', 420, 438 ]
+155 silly gunzTarPerm extractEntry lib/helpers/tabbable.js
+156 silly gunzTarPerm modified mode [ 'lib/helpers/tabbable.js', 420, 438 ]
+157 silly gunzTarPerm extractEntry scripts/build
+158 silly gunzTarPerm modified mode [ 'scripts/build', 493, 511 ]
+159 silly gunzTarPerm extractEntry scripts/dev-examples
+160 silly gunzTarPerm modified mode [ 'scripts/dev-examples', 493, 511 ]
+161 silly gunzTarPerm extractEntry scripts/preview-release
+162 silly gunzTarPerm modified mode [ 'scripts/preview-release', 493, 511 ]
+163 silly gunzTarPerm extractEntry scripts/release
+164 silly gunzTarPerm modified mode [ 'scripts/release', 493, 511 ]
+165 silly gunzTarPerm extractEntry scripts/test
+166 silly gunzTarPerm modified mode [ 'scripts/test', 493, 511 ]
+167 silly gunzTarPerm extractEntry dist/react-modal.js
+168 silly gunzTarPerm modified mode [ 'dist/react-modal.js', 420, 438 ]
+169 silly gunzTarPerm extractEntry dist/react-modal.min.js
+170 silly gunzTarPerm modified mode [ 'dist/react-modal.min.js', 420, 438 ]
+171 verbose write writing to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\package.json
+172 info preinstall react-modal@0.6.1
+173 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\package.json
+174 silly prepareForInstallMany adding element-class@^0.2.0 from react-modal dependencies
+175 silly prepareForInstallMany adding exenv@1.2.0 from react-modal dependencies
+176 silly prepareForInstallMany adding lodash.assign@^3.2.0 from react-modal dependencies
+177 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\package.json
+178 silly cache add args [ 'exenv@1.2.0', null ]
+179 verbose cache add spec exenv@1.2.0
+180 silly cache add parsed spec { raw: 'exenv@1.2.0',
+180 silly cache add   scope: null,
+180 silly cache add   name: 'exenv',
+180 silly cache add   rawSpec: '1.2.0',
+180 silly cache add   spec: '1.2.0',
+180 silly cache add   type: 'version' }
+181 silly addNamed exenv@1.2.0
+182 verbose addNamed "1.2.0" is a plain semver version for exenv
+183 silly mapToRegistry name exenv
+184 silly mapToRegistry using default registry
+185 silly mapToRegistry registry https://registry.npmjs.org/
+186 silly mapToRegistry uri https://registry.npmjs.org/exenv
+187 verbose addNameVersion registry:https://registry.npmjs.org/exenv not in flight; fetching
+188 silly cache add args [ 'lodash.assign@^3.2.0', null ]
+189 verbose cache add spec lodash.assign@^3.2.0
+190 silly cache add parsed spec { raw: 'lodash.assign@^3.2.0',
+190 silly cache add   scope: null,
+190 silly cache add   name: 'lodash.assign',
+190 silly cache add   rawSpec: '^3.2.0',
+190 silly cache add   spec: '>=3.2.0 <4.0.0',
+190 silly cache add   type: 'range' }
+191 silly addNamed lodash.assign@>=3.2.0 <4.0.0
+192 verbose addNamed ">=3.2.0 <4.0.0" is a valid semver range for lodash.assign
+193 silly addNameRange { name: 'lodash.assign',
+193 silly addNameRange   range: '>=3.2.0 <4.0.0',
+193 silly addNameRange   hasData: false }
+194 silly mapToRegistry name lodash.assign
+195 silly mapToRegistry using default registry
+196 silly mapToRegistry registry https://registry.npmjs.org/
+197 silly mapToRegistry uri https://registry.npmjs.org/lodash.assign
+198 verbose addNameRange registry:https://registry.npmjs.org/lodash.assign not in flight; fetching
+199 silly cache add args [ 'element-class@^0.2.0', null ]
+200 verbose cache add spec element-class@^0.2.0
+201 silly cache add parsed spec { raw: 'element-class@^0.2.0',
+201 silly cache add   scope: null,
+201 silly cache add   name: 'element-class',
+201 silly cache add   rawSpec: '^0.2.0',
+201 silly cache add   spec: '>=0.2.0 <0.3.0',
+201 silly cache add   type: 'range' }
+202 silly addNamed element-class@>=0.2.0 <0.3.0
+203 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for element-class
+204 silly addNameRange { name: 'element-class',
+204 silly addNameRange   range: '>=0.2.0 <0.3.0',
+204 silly addNameRange   hasData: false }
+205 silly mapToRegistry name element-class
+206 silly mapToRegistry using default registry
+207 silly mapToRegistry registry https://registry.npmjs.org/
+208 silly mapToRegistry uri https://registry.npmjs.org/element-class
+209 verbose addNameRange registry:https://registry.npmjs.org/element-class not in flight; fetching
+210 verbose request uri https://registry.npmjs.org/lodash.assign
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 6:26:01 PM
+213 verbose etag "7LOFSVKIE2FXZVD0X1HUHC6RR"
+214 http request GET https://registry.npmjs.org/lodash.assign
+215 verbose request uri https://registry.npmjs.org/exenv
+216 verbose request no auth needed
+217 info attempt registry request try #1 at 6:26:01 PM
+218 verbose etag "CNPE45OXJHXZ5UFAHR36P9FVP"
+219 http request GET https://registry.npmjs.org/exenv
+220 verbose request uri https://registry.npmjs.org/element-class
+221 verbose request no auth needed
+222 info attempt registry request try #1 at 6:26:01 PM
+223 verbose etag "32XXNR2Z4PRL428AJSJW6TXXH"
+224 http request GET https://registry.npmjs.org/element-class
+225 http 304 https://registry.npmjs.org/lodash.assign
+226 silly get cb [ 304,
+226 silly get   { date: 'Thu, 17 Mar 2016 12:56:01 GMT',
+226 silly get     via: '1.1 varnish',
+226 silly get     'cache-control': 'max-age=300',
+226 silly get     etag: '"7LOFSVKIE2FXZVD0X1HUHC6RR"',
+226 silly get     age: '299',
+226 silly get     connection: 'keep-alive',
+226 silly get     'x-served-by': 'cache-sin6922-SIN',
+226 silly get     'x-cache': 'HIT',
+226 silly get     'x-cache-hits': '4',
+226 silly get     'x-timer': 'S1458219361.379701,VS0,VE0',
+226 silly get     vary: 'Accept' } ]
+227 verbose etag https://registry.npmjs.org/lodash.assign from cache
+228 verbose get saving lodash.assign to C:\Users\amita\AppData\Roaming\npm-cache\registry.npmjs.org\lodash.assign\.cache.json
+229 silly addNameRange number 2 { name: 'lodash.assign', range: '>=3.2.0 <4.0.0', hasData: true }
+230 silly addNameRange versions [ 'lodash.assign',
+230 silly addNameRange   [ '2.0.0',
+230 silly addNameRange     '2.1.0',
+230 silly addNameRange     '2.2.0',
+230 silly addNameRange     '2.2.1',
+230 silly addNameRange     '2.3.0',
+230 silly addNameRange     '2.4.0',
+230 silly addNameRange     '2.4.1',
+230 silly addNameRange     '3.0.0',
+230 silly addNameRange     '3.1.0',
+230 silly addNameRange     '3.2.0',
+230 silly addNameRange     '4.0.0',
+230 silly addNameRange     '4.0.1',
+230 silly addNameRange     '4.0.2',
+230 silly addNameRange     '4.0.3',
+230 silly addNameRange     '4.0.4',
+230 silly addNameRange     '4.0.5',
+230 silly addNameRange     '4.0.6' ] ]
+231 silly addNamed lodash.assign@3.2.0
+232 verbose addNamed "3.2.0" is a plain semver version for lodash.assign
+233 silly cache afterAdd lodash.assign@3.2.0
+234 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash.assign\3.2.0\package\package.json not in flight; writing
+235 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash.assign\3.2.0\package\package.json written
+236 http 304 https://registry.npmjs.org/element-class
+237 silly get cb [ 304,
+237 silly get   { date: 'Thu, 17 Mar 2016 12:56:01 GMT',
+237 silly get     via: '1.1 varnish',
+237 silly get     'cache-control': 'max-age=300',
+237 silly get     etag: '"32XXNR2Z4PRL428AJSJW6TXXH"',
+237 silly get     age: '85',
+237 silly get     connection: 'keep-alive',
+237 silly get     'x-served-by': 'cache-sin6926-SIN',
+237 silly get     'x-cache': 'HIT',
+237 silly get     'x-cache-hits': '1',
+237 silly get     'x-timer': 'S1458219361.422359,VS0,VE1',
+237 silly get     vary: 'Accept' } ]
+238 verbose etag https://registry.npmjs.org/element-class from cache
+239 verbose get saving element-class to C:\Users\amita\AppData\Roaming\npm-cache\registry.npmjs.org\element-class\.cache.json
+240 silly addNameRange number 2 { name: 'element-class', range: '>=0.2.0 <0.3.0', hasData: true }
+241 silly addNameRange versions [ 'element-class',
+241 silly addNameRange   [ '0.0.1', '0.0.2', '0.1.0', '0.1.1', '0.2.0', '0.2.1', '0.2.2' ] ]
+242 silly addNamed element-class@0.2.2
+243 verbose addNamed "0.2.2" is a plain semver version for element-class
+244 silly cache afterAdd element-class@0.2.2
+245 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\element-class\0.2.2\package\package.json not in flight; writing
+246 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\element-class\0.2.2\package\package.json written
+247 http 304 https://registry.npmjs.org/exenv
+248 silly get cb [ 304,
+248 silly get   { date: 'Thu, 17 Mar 2016 12:56:01 GMT',
+248 silly get     via: '1.1 varnish',
+248 silly get     'cache-control': 'max-age=300',
+248 silly get     etag: '"CNPE45OXJHXZ5UFAHR36P9FVP"',
+248 silly get     age: '0',
+248 silly get     connection: 'keep-alive',
+248 silly get     'x-served-by': 'cache-sin6920-SIN',
+248 silly get     'x-cache': 'HIT',
+248 silly get     'x-cache-hits': '1',
+248 silly get     'x-timer': 'S1458219361.416820,VS0,VE201',
+248 silly get     vary: 'Accept' } ]
+249 verbose etag https://registry.npmjs.org/exenv from cache
+250 verbose get saving exenv to C:\Users\amita\AppData\Roaming\npm-cache\registry.npmjs.org\exenv\.cache.json
+251 silly cache afterAdd exenv@1.2.0
+252 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\exenv\1.2.0\package\package.json not in flight; writing
+253 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\exenv\1.2.0\package\package.json written
+254 silly install resolved [ { name: 'lodash.assign',
+254 silly install resolved     version: '3.2.0',
+254 silly install resolved     description: 'The modern build of lodash’s `_.assign` as a module.',
+254 silly install resolved     homepage: 'https://lodash.com/',
+254 silly install resolved     icon: 'https://lodash.com/icon.svg',
+254 silly install resolved     license: 'MIT',
+254 silly install resolved     keywords: [ 'lodash', 'lodash-modularized', 'stdlib', 'util' ],
+254 silly install resolved     author:
+254 silly install resolved      { name: 'John-David Dalton',
+254 silly install resolved        email: 'john.david.dalton@gmail.com',
+254 silly install resolved        url: 'http://allyoucanleet.com/' },
+254 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+254 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+254 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+254 silly install resolved     dependencies:
+254 silly install resolved      { 'lodash._baseassign': '^3.0.0',
+254 silly install resolved        'lodash._createassigner': '^3.0.0',
+254 silly install resolved        'lodash.keys': '^3.0.0' },
+254 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+254 silly install resolved     _id: 'lodash.assign@3.2.0',
+254 silly install resolved     _shasum: '3ce9f0234b4b2223e296b8fa0ac1fee8ebca64fa',
+254 silly install resolved     _from: 'lodash.assign@>=3.2.0 <4.0.0',
+254 silly install resolved     _npmVersion: '2.10.0',
+254 silly install resolved     _nodeVersion: '0.12.3',
+254 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+254 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+254 silly install resolved     dist:
+254 silly install resolved      { shasum: '3ce9f0234b4b2223e296b8fa0ac1fee8ebca64fa',
+254 silly install resolved        tarball: 'http://registry.npmjs.org/lodash.assign/-/lodash.assign-3.2.0.tgz' },
+254 silly install resolved     directories: {},
+254 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.assign/-/lodash.assign-3.2.0.tgz',
+254 silly install resolved     readme: 'ERROR: No README data found!' },
+254 silly install resolved   { name: 'element-class',
+254 silly install resolved     description: 'add and remove classes from dom elements',
+254 silly install resolved     author: { name: 'Max Ogden', email: 'max@maxogden.com' },
+254 silly install resolved     repository:
+254 silly install resolved      { type: 'git',
+254 silly install resolved        url: 'git+ssh://git@github.com/maxogden/element-class.git' },
+254 silly install resolved     version: '0.2.2',
+254 silly install resolved     bugs: { url: 'https://github.com/maxogden/element-class/issues' },
+254 silly install resolved     homepage: 'https://github.com/maxogden/element-class',
+254 silly install resolved     main: 'index.js',
+254 silly install resolved     devDependencies: { tape: '^4.2.0' },
+254 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+254 silly install resolved     license: 'ISC',
+254 silly install resolved     testling: { files: 'test.js', browsers: [Object] },
+254 silly install resolved     gitHead: 'e61e8f8950dcfffd8ccde4310972a80053f7b75d',
+254 silly install resolved     _id: 'element-class@0.2.2',
+254 silly install resolved     _shasum: '9d3bbd0767f9013ef8e1c8ebe722c1402a60050e',
+254 silly install resolved     _from: 'element-class@>=0.2.0 <0.3.0',
+254 silly install resolved     _npmVersion: '2.11.3',
+254 silly install resolved     _nodeVersion: '0.12.7',
+254 silly install resolved     _npmUser: { name: 'maxogden', email: 'max@maxogden.com' },
+254 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+254 silly install resolved     dist:
+254 silly install resolved      { shasum: '9d3bbd0767f9013ef8e1c8ebe722c1402a60050e',
+254 silly install resolved        tarball: 'http://registry.npmjs.org/element-class/-/element-class-0.2.2.tgz' },
+254 silly install resolved     directories: {},
+254 silly install resolved     _resolved: 'https://registry.npmjs.org/element-class/-/element-class-0.2.2.tgz',
+254 silly install resolved     readme: 'ERROR: No README data found!' },
+254 silly install resolved   { name: 'exenv',
+254 silly install resolved     version: '1.2.0',
+254 silly install resolved     description: 'React\'s ExecutionEnvironment module extracted for use in other packages & components',
+254 silly install resolved     main: 'index.js',
+254 silly install resolved     scripts: { test: 'echo "See React tests" && exit 0' },
+254 silly install resolved     repository:
+254 silly install resolved      { type: 'git',
+254 silly install resolved        url: 'git+https://github.com/JedWatson/exenv.git' },
+254 silly install resolved     keywords:
+254 silly install resolved      [ 'react',
+254 silly install resolved        'browser',
+254 silly install resolved        'server',
+254 silly install resolved        'environment',
+254 silly install resolved        'env',
+254 silly install resolved        'execution',
+254 silly install resolved        'executionenvironment' ],
+254 silly install resolved     author: { name: 'Jed Watson' },
+254 silly install resolved     license: 'BSD',
+254 silly install resolved     bugs: { url: 'https://github.com/JedWatson/exenv/issues' },
+254 silly install resolved     homepage: 'https://github.com/JedWatson/exenv',
+254 silly install resolved     gitHead: 'bf84d0a7782fd824a1d94ed612067b1e0d080d2e',
+254 silly install resolved     _id: 'exenv@1.2.0',
+254 silly install resolved     _shasum: '3835f127abf075bfe082d0aed4484057c78e3c89',
+254 silly install resolved     _from: 'exenv@1.2.0',
+254 silly install resolved     _npmVersion: '2.7.5',
+254 silly install resolved     _nodeVersion: '0.12.2',
+254 silly install resolved     _npmUser: { name: 'jedwatson', email: 'jed.watson@me.com' },
+254 silly install resolved     dist:
+254 silly install resolved      { shasum: '3835f127abf075bfe082d0aed4484057c78e3c89',
+254 silly install resolved        tarball: 'http://registry.npmjs.org/exenv/-/exenv-1.2.0.tgz' },
+254 silly install resolved     maintainers: [ [Object] ],
+254 silly install resolved     directories: {},
+254 silly install resolved     _resolved: 'https://registry.npmjs.org/exenv/-/exenv-1.2.0.tgz',
+254 silly install resolved     readme: 'ERROR: No README data found!' } ]
+255 info install lodash.assign@3.2.0 into F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal
+256 info install element-class@0.2.2 into F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal
+257 info install exenv@1.2.0 into F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal
+258 info installOne lodash.assign@3.2.0
+259 verbose installOne of lodash.assign to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal not in flight; installing
+260 info installOne element-class@0.2.2
+261 verbose installOne of element-class to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal not in flight; installing
+262 info installOne exenv@1.2.0
+263 verbose installOne of exenv to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal not in flight; installing
+264 verbose lock using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-assign-1ec2d126049ec605.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign
+265 verbose lock using C:\Users\amita\AppData\Roaming\npm-cache\_locks\exenv-54ac964b7df2cf05.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\exenv
+266 verbose lock using C:\Users\amita\AppData\Roaming\npm-cache\_locks\element-class-cffa7779a2c029ff.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\element-class
+267 silly install write writing lodash.assign 3.2.0 to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign
+268 silly install write writing exenv 1.2.0 to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\exenv
+269 silly install write writing element-class 0.2.2 to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\element-class
+270 verbose unbuild node_modules\react-modal\node_modules\lodash.assign
+271 verbose unbuild node_modules\react-modal\node_modules\exenv
+272 verbose unbuild node_modules\react-modal\node_modules\element-class
+273 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign is being purged from base F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+274 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign
+275 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\exenv is being purged from base F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+276 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\exenv
+277 verbose tar unpack C:\Users\amita\AppData\Roaming\npm-cache\lodash.assign\3.2.0\package.tgz
+278 verbose tar unpacking to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign
+279 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign is being purged
+280 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign
+281 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\element-class is being purged from base F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+282 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\element-class
+283 verbose tar unpack C:\Users\amita\AppData\Roaming\npm-cache\exenv\1.2.0\package.tgz
+284 verbose tar unpacking to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\exenv
+285 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\exenv is being purged
+286 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\exenv
+287 silly gunzTarPerm modes [ '777', '666' ]
+288 verbose tar unpack C:\Users\amita\AppData\Roaming\npm-cache\element-class\0.2.2\package.tgz
+289 verbose tar unpacking to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\element-class
+290 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\element-class is being purged
+291 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\element-class
+292 silly gunzTarPerm modes [ '777', '666' ]
+293 silly gunzTarPerm modes [ '777', '666' ]
+294 silly gunzTarPerm extractEntry package.json
+295 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+296 silly gunzTarPerm extractEntry README.md
+297 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+298 silly gunzTarPerm extractEntry index.js
+299 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+300 silly gunzTarPerm extractEntry LICENSE.txt
+301 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+302 verbose write writing to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\package.json
+303 info preinstall lodash.assign@3.2.0
+304 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\package.json
+305 silly prepareForInstallMany adding lodash._baseassign@^3.0.0 from lodash.assign dependencies
+306 silly prepareForInstallMany adding lodash._createassigner@^3.0.0 from lodash.assign dependencies
+307 silly prepareForInstallMany adding lodash.keys@^3.0.0 from lodash.assign dependencies
+308 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\package.json
+309 silly gunzTarPerm extractEntry package.json
+310 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+311 silly gunzTarPerm extractEntry README.md
+312 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+313 silly gunzTarPerm extractEntry LICENSE
+314 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+315 silly cache add args [ 'lodash.keys@^3.0.0', null ]
+316 verbose cache add spec lodash.keys@^3.0.0
+317 silly cache add parsed spec { raw: 'lodash.keys@^3.0.0',
+317 silly cache add   scope: null,
+317 silly cache add   name: 'lodash.keys',
+317 silly cache add   rawSpec: '^3.0.0',
+317 silly cache add   spec: '>=3.0.0 <4.0.0',
+317 silly cache add   type: 'range' }
+318 silly addNamed lodash.keys@>=3.0.0 <4.0.0
+319 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash.keys
+320 silly addNameRange { name: 'lodash.keys', range: '>=3.0.0 <4.0.0', hasData: false }
+321 silly mapToRegistry name lodash.keys
+322 silly mapToRegistry using default registry
+323 silly mapToRegistry registry https://registry.npmjs.org/
+324 silly mapToRegistry uri https://registry.npmjs.org/lodash.keys
+325 verbose addNameRange registry:https://registry.npmjs.org/lodash.keys not in flight; fetching
+326 verbose request uri https://registry.npmjs.org/lodash.keys
+327 verbose request no auth needed
+328 info attempt registry request try #1 at 6:26:01 PM
+329 verbose etag "5E9ZGBYRU9K3E6HOGTTGJEJYQ"
+330 http request GET https://registry.npmjs.org/lodash.keys
+331 silly cache add args [ 'lodash._baseassign@^3.0.0', null ]
+332 verbose cache add spec lodash._baseassign@^3.0.0
+333 silly cache add parsed spec { raw: 'lodash._baseassign@^3.0.0',
+333 silly cache add   scope: null,
+333 silly cache add   name: 'lodash._baseassign',
+333 silly cache add   rawSpec: '^3.0.0',
+333 silly cache add   spec: '>=3.0.0 <4.0.0',
+333 silly cache add   type: 'range' }
+334 silly addNamed lodash._baseassign@>=3.0.0 <4.0.0
+335 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash._baseassign
+336 silly addNameRange { name: 'lodash._baseassign',
+336 silly addNameRange   range: '>=3.0.0 <4.0.0',
+336 silly addNameRange   hasData: false }
+337 silly mapToRegistry name lodash._baseassign
+338 silly mapToRegistry using default registry
+339 silly mapToRegistry registry https://registry.npmjs.org/
+340 silly mapToRegistry uri https://registry.npmjs.org/lodash._baseassign
+341 verbose addNameRange registry:https://registry.npmjs.org/lodash._baseassign not in flight; fetching
+342 silly cache add args [ 'lodash._createassigner@^3.0.0', null ]
+343 verbose cache add spec lodash._createassigner@^3.0.0
+344 silly cache add parsed spec { raw: 'lodash._createassigner@^3.0.0',
+344 silly cache add   scope: null,
+344 silly cache add   name: 'lodash._createassigner',
+344 silly cache add   rawSpec: '^3.0.0',
+344 silly cache add   spec: '>=3.0.0 <4.0.0',
+344 silly cache add   type: 'range' }
+345 silly addNamed lodash._createassigner@>=3.0.0 <4.0.0
+346 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash._createassigner
+347 silly addNameRange { name: 'lodash._createassigner',
+347 silly addNameRange   range: '>=3.0.0 <4.0.0',
+347 silly addNameRange   hasData: false }
+348 silly mapToRegistry name lodash._createassigner
+349 silly mapToRegistry using default registry
+350 silly mapToRegistry registry https://registry.npmjs.org/
+351 silly mapToRegistry uri https://registry.npmjs.org/lodash._createassigner
+352 verbose addNameRange registry:https://registry.npmjs.org/lodash._createassigner not in flight; fetching
+353 verbose request uri https://registry.npmjs.org/lodash._baseassign
+354 verbose request no auth needed
+355 info attempt registry request try #1 at 6:26:01 PM
+356 verbose etag "7BL6B7FKZDZ47VD91B03KH2N1"
+357 http request GET https://registry.npmjs.org/lodash._baseassign
+358 silly gunzTarPerm extractEntry index.js
+359 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+360 verbose request uri https://registry.npmjs.org/lodash._createassigner
+361 verbose request no auth needed
+362 info attempt registry request try #1 at 6:26:01 PM
+363 verbose etag "CQWTFITE6W94GAS2PZVA3DD9Z"
+364 http request GET https://registry.npmjs.org/lodash._createassigner
+365 silly gunzTarPerm extractEntry package.json
+366 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+367 silly gunzTarPerm extractEntry .npmignore
+368 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+369 silly gunzTarPerm extractEntry index.js
+370 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+371 silly gunzTarPerm extractEntry test.js
+372 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+373 silly gunzTarPerm extractEntry collaborators.md
+374 silly gunzTarPerm modified mode [ 'collaborators.md', 420, 438 ]
+375 silly gunzTarPerm extractEntry readme.md
+376 silly gunzTarPerm modified mode [ 'readme.md', 420, 438 ]
+377 verbose write writing to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\exenv\package.json
+378 info preinstall exenv@1.2.0
+379 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\exenv\package.json
+380 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\exenv\package.json
+381 silly install resolved []
+382 verbose about to build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\exenv
+383 info build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\exenv
+384 info linkStuff exenv@1.2.0
+385 silly linkStuff exenv@1.2.0 has F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules as its parent node_modules
+386 verbose linkBins exenv@1.2.0
+387 verbose linkMans exenv@1.2.0
+388 verbose rebuildBundles exenv@1.2.0
+389 info install exenv@1.2.0
+390 verbose write writing to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\element-class\package.json
+391 info postinstall exenv@1.2.0
+392 info preinstall element-class@0.2.2
+393 verbose unlock done using C:\Users\amita\AppData\Roaming\npm-cache\_locks\exenv-54ac964b7df2cf05.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\exenv
+394 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\element-class\package.json
+395 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\element-class\package.json
+396 silly install resolved []
+397 verbose about to build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\element-class
+398 info build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\element-class
+399 info linkStuff element-class@0.2.2
+400 silly linkStuff element-class@0.2.2 has F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules as its parent node_modules
+401 verbose linkBins element-class@0.2.2
+402 verbose linkMans element-class@0.2.2
+403 verbose rebuildBundles element-class@0.2.2
+404 info install element-class@0.2.2
+405 info postinstall element-class@0.2.2
+406 verbose unlock done using C:\Users\amita\AppData\Roaming\npm-cache\_locks\element-class-cffa7779a2c029ff.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\element-class
+407 http 304 https://registry.npmjs.org/lodash.keys
+408 silly get cb [ 304,
+408 silly get   { date: 'Thu, 17 Mar 2016 12:56:02 GMT',
+408 silly get     via: '1.1 varnish',
+408 silly get     'cache-control': 'max-age=300',
+408 silly get     etag: '"5E9ZGBYRU9K3E6HOGTTGJEJYQ"',
+408 silly get     age: '21',
+408 silly get     connection: 'keep-alive',
+408 silly get     'x-served-by': 'cache-sin6920-SIN',
+408 silly get     'x-cache': 'HIT',
+408 silly get     'x-cache-hits': '2',
+408 silly get     'x-timer': 'S1458219362.059713,VS0,VE0',
+408 silly get     vary: 'Accept' } ]
+409 verbose etag https://registry.npmjs.org/lodash.keys from cache
+410 verbose get saving lodash.keys to C:\Users\amita\AppData\Roaming\npm-cache\registry.npmjs.org\lodash.keys\.cache.json
+411 http 304 https://registry.npmjs.org/lodash._createassigner
+412 silly get cb [ 304,
+412 silly get   { date: 'Thu, 17 Mar 2016 12:56:02 GMT',
+412 silly get     via: '1.1 varnish',
+412 silly get     'cache-control': 'max-age=300',
+412 silly get     etag: '"CQWTFITE6W94GAS2PZVA3DD9Z"',
+412 silly get     age: '224',
+412 silly get     connection: 'keep-alive',
+412 silly get     'x-served-by': 'cache-sin6923-SIN',
+412 silly get     'x-cache': 'HIT',
+412 silly get     'x-cache-hits': '4',
+412 silly get     'x-timer': 'S1458219362.065900,VS0,VE0',
+412 silly get     vary: 'Accept' } ]
+413 verbose etag https://registry.npmjs.org/lodash._createassigner from cache
+414 verbose get saving lodash._createassigner to C:\Users\amita\AppData\Roaming\npm-cache\registry.npmjs.org\lodash._createassigner\.cache.json
+415 silly addNameRange number 2 { name: 'lodash.keys', range: '>=3.0.0 <4.0.0', hasData: true }
+416 silly addNameRange versions [ 'lodash.keys',
+416 silly addNameRange   [ '2.0.0',
+416 silly addNameRange     '2.1.0',
+416 silly addNameRange     '2.2.0',
+416 silly addNameRange     '2.2.1',
+416 silly addNameRange     '2.3.0',
+416 silly addNameRange     '2.4.0',
+416 silly addNameRange     '2.4.1',
+416 silly addNameRange     '3.0.0',
+416 silly addNameRange     '3.0.1',
+416 silly addNameRange     '3.0.2',
+416 silly addNameRange     '3.0.3',
+416 silly addNameRange     '3.0.4',
+416 silly addNameRange     '3.0.5',
+416 silly addNameRange     '3.0.6',
+416 silly addNameRange     '3.0.7',
+416 silly addNameRange     '3.1.0',
+416 silly addNameRange     '3.1.1',
+416 silly addNameRange     '3.1.2',
+416 silly addNameRange     '4.0.0',
+416 silly addNameRange     '4.0.1',
+416 silly addNameRange     '4.0.2',
+416 silly addNameRange     '4.0.3',
+416 silly addNameRange     '4.0.4',
+416 silly addNameRange     '4.0.5' ] ]
+417 silly addNamed lodash.keys@3.1.2
+418 verbose addNamed "3.1.2" is a plain semver version for lodash.keys
+419 http 304 https://registry.npmjs.org/lodash._baseassign
+420 silly get cb [ 304,
+420 silly get   { date: 'Thu, 17 Mar 2016 12:56:02 GMT',
+420 silly get     via: '1.1 varnish',
+420 silly get     'cache-control': 'max-age=300',
+420 silly get     etag: '"7BL6B7FKZDZ47VD91B03KH2N1"',
+420 silly get     age: '297',
+420 silly get     connection: 'keep-alive',
+420 silly get     'x-served-by': 'cache-sin6922-SIN',
+420 silly get     'x-cache': 'HIT',
+420 silly get     'x-cache-hits': '5',
+420 silly get     'x-timer': 'S1458219362.070223,VS0,VE0',
+420 silly get     vary: 'Accept' } ]
+421 verbose etag https://registry.npmjs.org/lodash._baseassign from cache
+422 verbose get saving lodash._baseassign to C:\Users\amita\AppData\Roaming\npm-cache\registry.npmjs.org\lodash._baseassign\.cache.json
+423 silly addNameRange number 2 { name: 'lodash._createassigner',
+423 silly addNameRange   range: '>=3.0.0 <4.0.0',
+423 silly addNameRange   hasData: true }
+424 silly addNameRange versions [ 'lodash._createassigner',
+424 silly addNameRange   [ '3.0.0', '3.0.1', '3.1.0', '3.1.1' ] ]
+425 silly addNamed lodash._createassigner@3.1.1
+426 verbose addNamed "3.1.1" is a plain semver version for lodash._createassigner
+427 silly cache afterAdd lodash.keys@3.1.2
+428 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash.keys\3.1.2\package\package.json not in flight; writing
+429 silly cache afterAdd lodash._createassigner@3.1.1
+430 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash._createassigner\3.1.1\package\package.json not in flight; writing
+431 silly addNameRange number 2 { name: 'lodash._baseassign',
+431 silly addNameRange   range: '>=3.0.0 <4.0.0',
+431 silly addNameRange   hasData: true }
+432 silly addNameRange versions [ 'lodash._baseassign',
+432 silly addNameRange   [ '3.0.0', '3.0.1', '3.0.2', '3.1.0', '3.1.1', '3.2.0' ] ]
+433 silly addNamed lodash._baseassign@3.2.0
+434 verbose addNamed "3.2.0" is a plain semver version for lodash._baseassign
+435 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash.keys\3.1.2\package\package.json written
+436 silly cache afterAdd lodash._baseassign@3.2.0
+437 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash._baseassign\3.2.0\package\package.json not in flight; writing
+438 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash._createassigner\3.1.1\package\package.json written
+439 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash._baseassign\3.2.0\package\package.json written
+440 silly install resolved [ { name: 'lodash.keys',
+440 silly install resolved     version: '3.1.2',
+440 silly install resolved     description: 'The modern build of lodash’s `_.keys` as a module.',
+440 silly install resolved     homepage: 'https://lodash.com/',
+440 silly install resolved     icon: 'https://lodash.com/icon.svg',
+440 silly install resolved     license: 'MIT',
+440 silly install resolved     keywords: [ 'lodash', 'lodash-modularized', 'stdlib', 'util' ],
+440 silly install resolved     author:
+440 silly install resolved      { name: 'John-David Dalton',
+440 silly install resolved        email: 'john.david.dalton@gmail.com',
+440 silly install resolved        url: 'http://allyoucanleet.com/' },
+440 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+440 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+440 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+440 silly install resolved     dependencies:
+440 silly install resolved      { 'lodash._getnative': '^3.0.0',
+440 silly install resolved        'lodash.isarguments': '^3.0.0',
+440 silly install resolved        'lodash.isarray': '^3.0.0' },
+440 silly install resolved     readme: '# lodash.keys v3.1.2\n\nThe [modern build](https://github.com/lodash/lodash/wiki/Build-Differences) of [lodash’s](https://lodash.com/) `_.keys` exported as a [Node.js](http://nodejs.org/)/[io.js](https://iojs.org/) module.\n\n## Installation\n\nUsing npm:\n\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.keys\n```\n\nIn Node.js/io.js:\n\n```js\nvar keys = require(\'lodash.keys\');\n```\n\nSee the [documentation](https://lodash.com/docs#keys) or [package source](https://github.com/lodash/lodash/blob/3.1.2-npm-packages/lodash.keys) for more details.\n',
+440 silly install resolved     readmeFilename: 'README.md',
+440 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+440 silly install resolved     _id: 'lodash.keys@3.1.2',
+440 silly install resolved     _shasum: '4dbc0472b156be50a0b286855d1bd0b0c656098a',
+440 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.keys/-/lodash.keys-3.1.2.tgz',
+440 silly install resolved     _from: 'lodash.keys@>=3.0.0 <4.0.0' },
+440 silly install resolved   { name: 'lodash._createassigner',
+440 silly install resolved     version: '3.1.1',
+440 silly install resolved     description: 'The modern build of lodash’s internal `createAssigner` as a module.',
+440 silly install resolved     homepage: 'https://lodash.com/',
+440 silly install resolved     icon: 'https://lodash.com/icon.svg',
+440 silly install resolved     license: 'MIT',
+440 silly install resolved     author:
+440 silly install resolved      { name: 'John-David Dalton',
+440 silly install resolved        email: 'john.david.dalton@gmail.com',
+440 silly install resolved        url: 'http://allyoucanleet.com/' },
+440 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+440 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+440 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+440 silly install resolved     dependencies:
+440 silly install resolved      { 'lodash._bindcallback': '^3.0.0',
+440 silly install resolved        'lodash._isiterateecall': '^3.0.0',
+440 silly install resolved        'lodash.restparam': '^3.0.0' },
+440 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+440 silly install resolved     _id: 'lodash._createassigner@3.1.1',
+440 silly install resolved     _shasum: '838a5bae2fdaca63ac22dee8e19fa4e6d6970b11',
+440 silly install resolved     _from: 'lodash._createassigner@>=3.0.0 <4.0.0',
+440 silly install resolved     _npmVersion: '2.10.0',
+440 silly install resolved     _nodeVersion: '0.12.3',
+440 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+440 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+440 silly install resolved     dist:
+440 silly install resolved      { shasum: '838a5bae2fdaca63ac22dee8e19fa4e6d6970b11',
+440 silly install resolved        tarball: 'http://registry.npmjs.org/lodash._createassigner/-/lodash._createassigner-3.1.1.tgz' },
+440 silly install resolved     directories: {},
+440 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash._createassigner/-/lodash._createassigner-3.1.1.tgz',
+440 silly install resolved     readme: 'ERROR: No README data found!' },
+440 silly install resolved   { name: 'lodash._baseassign',
+440 silly install resolved     version: '3.2.0',
+440 silly install resolved     description: 'The modern build of lodash’s internal `baseAssign` as a module.',
+440 silly install resolved     homepage: 'https://lodash.com/',
+440 silly install resolved     icon: 'https://lodash.com/icon.svg',
+440 silly install resolved     license: 'MIT',
+440 silly install resolved     author:
+440 silly install resolved      { name: 'John-David Dalton',
+440 silly install resolved        email: 'john.david.dalton@gmail.com',
+440 silly install resolved        url: 'http://allyoucanleet.com/' },
+440 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+440 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+440 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+440 silly install resolved     dependencies: { 'lodash._basecopy': '^3.0.0', 'lodash.keys': '^3.0.0' },
+440 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+440 silly install resolved     _id: 'lodash._baseassign@3.2.0',
+440 silly install resolved     _shasum: '8c38a099500f215ad09e59f1722fd0c52bfe0a4e',
+440 silly install resolved     _from: 'lodash._baseassign@>=3.0.0 <4.0.0',
+440 silly install resolved     _npmVersion: '2.10.0',
+440 silly install resolved     _nodeVersion: '0.12.3',
+440 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+440 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+440 silly install resolved     dist:
+440 silly install resolved      { shasum: '8c38a099500f215ad09e59f1722fd0c52bfe0a4e',
+440 silly install resolved        tarball: 'http://registry.npmjs.org/lodash._baseassign/-/lodash._baseassign-3.2.0.tgz' },
+440 silly install resolved     directories: {},
+440 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash._baseassign/-/lodash._baseassign-3.2.0.tgz',
+440 silly install resolved     readme: 'ERROR: No README data found!' } ]
+441 info install lodash.keys@3.1.2 into F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign
+442 info install lodash._createassigner@3.1.1 into F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign
+443 info install lodash._baseassign@3.2.0 into F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign
+444 info installOne lodash.keys@3.1.2
+445 verbose installOne of lodash.keys to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign not in flight; installing
+446 info installOne lodash._createassigner@3.1.1
+447 verbose installOne of lodash._createassigner to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign not in flight; installing
+448 info installOne lodash._baseassign@3.2.0
+449 verbose installOne of lodash._baseassign to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign not in flight; installing
+450 verbose lock using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-keys-d30092764a577836.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys
+451 verbose lock using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-createassigner-a9a5fceeaa8f63d8.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner
+452 verbose lock using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-baseassign-0d026b957a011d2e.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign
+453 silly install write writing lodash.keys 3.1.2 to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys
+454 silly install write writing lodash._createassigner 3.1.1 to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner
+455 silly install write writing lodash._baseassign 3.2.0 to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign
+456 verbose unbuild node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner
+457 verbose unbuild node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys
+458 verbose unbuild node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign
+459 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner is being purged from base F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+460 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner
+461 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys is being purged from base F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+462 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys
+463 verbose tar unpack C:\Users\amita\AppData\Roaming\npm-cache\lodash._createassigner\3.1.1\package.tgz
+464 verbose tar unpacking to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner
+465 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner is being purged
+466 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner
+467 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign is being purged from base F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+468 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign
+469 verbose tar unpack C:\Users\amita\AppData\Roaming\npm-cache\lodash.keys\3.1.2\package.tgz
+470 verbose tar unpacking to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys
+471 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys is being purged
+472 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys
+473 silly gunzTarPerm modes [ '777', '666' ]
+474 verbose tar unpack C:\Users\amita\AppData\Roaming\npm-cache\lodash._baseassign\3.2.0\package.tgz
+475 verbose tar unpacking to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign
+476 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign is being purged
+477 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign
+478 silly gunzTarPerm modes [ '777', '666' ]
+479 silly gunzTarPerm modes [ '777', '666' ]
+480 silly gunzTarPerm extractEntry package.json
+481 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+482 silly gunzTarPerm extractEntry package.json
+483 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+484 silly gunzTarPerm extractEntry package.json
+485 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+486 silly gunzTarPerm extractEntry README.md
+487 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+488 silly gunzTarPerm extractEntry index.js
+489 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+490 silly gunzTarPerm extractEntry README.md
+491 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+492 silly gunzTarPerm extractEntry LICENSE
+493 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+494 silly gunzTarPerm extractEntry README.md
+495 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+496 silly gunzTarPerm extractEntry index.js
+497 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+498 silly gunzTarPerm extractEntry index.js
+499 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+500 silly gunzTarPerm extractEntry LICENSE.txt
+501 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+502 silly gunzTarPerm extractEntry LICENSE.txt
+503 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+504 verbose write writing to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\package.json
+505 verbose write writing to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\package.json
+506 verbose write writing to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\package.json
+507 info preinstall lodash._baseassign@3.2.0
+508 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\package.json
+509 info preinstall lodash._createassigner@3.1.1
+510 info preinstall lodash.keys@3.1.2
+511 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\package.json
+512 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\package.json
+513 silly prepareForInstallMany adding lodash._basecopy@^3.0.0 from lodash._baseassign dependencies
+514 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\package.json
+515 silly prepareForInstallMany adding lodash._bindcallback@^3.0.0 from lodash._createassigner dependencies
+516 silly prepareForInstallMany adding lodash._isiterateecall@^3.0.0 from lodash._createassigner dependencies
+517 silly prepareForInstallMany adding lodash.restparam@^3.0.0 from lodash._createassigner dependencies
+518 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\package.json
+519 silly prepareForInstallMany adding lodash._getnative@^3.0.0 from lodash.keys dependencies
+520 silly prepareForInstallMany adding lodash.isarguments@^3.0.0 from lodash.keys dependencies
+521 silly prepareForInstallMany adding lodash.isarray@^3.0.0 from lodash.keys dependencies
+522 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\package.json
+523 silly cache add args [ 'lodash._basecopy@^3.0.0', null ]
+524 verbose cache add spec lodash._basecopy@^3.0.0
+525 silly cache add parsed spec { raw: 'lodash._basecopy@^3.0.0',
+525 silly cache add   scope: null,
+525 silly cache add   name: 'lodash._basecopy',
+525 silly cache add   rawSpec: '^3.0.0',
+525 silly cache add   spec: '>=3.0.0 <4.0.0',
+525 silly cache add   type: 'range' }
+526 silly addNamed lodash._basecopy@>=3.0.0 <4.0.0
+527 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash._basecopy
+528 silly addNameRange { name: 'lodash._basecopy',
+528 silly addNameRange   range: '>=3.0.0 <4.0.0',
+528 silly addNameRange   hasData: false }
+529 silly mapToRegistry name lodash._basecopy
+530 silly mapToRegistry using default registry
+531 silly mapToRegistry registry https://registry.npmjs.org/
+532 silly mapToRegistry uri https://registry.npmjs.org/lodash._basecopy
+533 verbose addNameRange registry:https://registry.npmjs.org/lodash._basecopy not in flight; fetching
+534 silly cache add args [ 'lodash._bindcallback@^3.0.0', null ]
+535 verbose cache add spec lodash._bindcallback@^3.0.0
+536 silly cache add args [ 'lodash._isiterateecall@^3.0.0', null ]
+537 verbose cache add spec lodash._isiterateecall@^3.0.0
+538 silly cache add parsed spec { raw: 'lodash._bindcallback@^3.0.0',
+538 silly cache add   scope: null,
+538 silly cache add   name: 'lodash._bindcallback',
+538 silly cache add   rawSpec: '^3.0.0',
+538 silly cache add   spec: '>=3.0.0 <4.0.0',
+538 silly cache add   type: 'range' }
+539 silly addNamed lodash._bindcallback@>=3.0.0 <4.0.0
+540 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash._bindcallback
+541 silly addNameRange { name: 'lodash._bindcallback',
+541 silly addNameRange   range: '>=3.0.0 <4.0.0',
+541 silly addNameRange   hasData: false }
+542 silly mapToRegistry name lodash._bindcallback
+543 silly mapToRegistry using default registry
+544 silly mapToRegistry registry https://registry.npmjs.org/
+545 silly mapToRegistry uri https://registry.npmjs.org/lodash._bindcallback
+546 verbose addNameRange registry:https://registry.npmjs.org/lodash._bindcallback not in flight; fetching
+547 silly cache add parsed spec { raw: 'lodash._isiterateecall@^3.0.0',
+547 silly cache add   scope: null,
+547 silly cache add   name: 'lodash._isiterateecall',
+547 silly cache add   rawSpec: '^3.0.0',
+547 silly cache add   spec: '>=3.0.0 <4.0.0',
+547 silly cache add   type: 'range' }
+548 silly addNamed lodash._isiterateecall@>=3.0.0 <4.0.0
+549 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash._isiterateecall
+550 silly addNameRange { name: 'lodash._isiterateecall',
+550 silly addNameRange   range: '>=3.0.0 <4.0.0',
+550 silly addNameRange   hasData: false }
+551 silly mapToRegistry name lodash._isiterateecall
+552 silly mapToRegistry using default registry
+553 silly mapToRegistry registry https://registry.npmjs.org/
+554 silly mapToRegistry uri https://registry.npmjs.org/lodash._isiterateecall
+555 verbose addNameRange registry:https://registry.npmjs.org/lodash._isiterateecall not in flight; fetching
+556 silly cache add args [ 'lodash.restparam@^3.0.0', null ]
+557 verbose cache add spec lodash.restparam@^3.0.0
+558 silly cache add parsed spec { raw: 'lodash.restparam@^3.0.0',
+558 silly cache add   scope: null,
+558 silly cache add   name: 'lodash.restparam',
+558 silly cache add   rawSpec: '^3.0.0',
+558 silly cache add   spec: '>=3.0.0 <4.0.0',
+558 silly cache add   type: 'range' }
+559 silly addNamed lodash.restparam@>=3.0.0 <4.0.0
+560 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash.restparam
+561 silly addNameRange { name: 'lodash.restparam',
+561 silly addNameRange   range: '>=3.0.0 <4.0.0',
+561 silly addNameRange   hasData: false }
+562 silly mapToRegistry name lodash.restparam
+563 silly mapToRegistry using default registry
+564 silly mapToRegistry registry https://registry.npmjs.org/
+565 silly mapToRegistry uri https://registry.npmjs.org/lodash.restparam
+566 verbose addNameRange registry:https://registry.npmjs.org/lodash.restparam not in flight; fetching
+567 verbose request uri https://registry.npmjs.org/lodash._basecopy
+568 verbose request no auth needed
+569 info attempt registry request try #1 at 6:26:02 PM
+570 verbose etag "9W88239PMDC1S83XDN4XKIKI"
+571 http request GET https://registry.npmjs.org/lodash._basecopy
+572 verbose request uri https://registry.npmjs.org/lodash._isiterateecall
+573 verbose request no auth needed
+574 info attempt registry request try #1 at 6:26:02 PM
+575 verbose etag "5T12YB3BV3DYI9G8QK957PADV"
+576 http request GET https://registry.npmjs.org/lodash._isiterateecall
+577 verbose request uri https://registry.npmjs.org/lodash._bindcallback
+578 verbose request no auth needed
+579 info attempt registry request try #1 at 6:26:02 PM
+580 verbose etag "4QCDH20MPKBVT8L2LY3OLQAXP"
+581 http request GET https://registry.npmjs.org/lodash._bindcallback
+582 verbose request uri https://registry.npmjs.org/lodash.restparam
+583 verbose request no auth needed
+584 info attempt registry request try #1 at 6:26:02 PM
+585 verbose etag "1659M1VRENH47KDVLN4NUNM18"
+586 http request GET https://registry.npmjs.org/lodash.restparam
+587 silly cache add args [ 'lodash.isarray@^3.0.0', null ]
+588 verbose cache add spec lodash.isarray@^3.0.0
+589 silly cache add parsed spec { raw: 'lodash.isarray@^3.0.0',
+589 silly cache add   scope: null,
+589 silly cache add   name: 'lodash.isarray',
+589 silly cache add   rawSpec: '^3.0.0',
+589 silly cache add   spec: '>=3.0.0 <4.0.0',
+589 silly cache add   type: 'range' }
+590 silly addNamed lodash.isarray@>=3.0.0 <4.0.0
+591 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash.isarray
+592 silly addNameRange { name: 'lodash.isarray',
+592 silly addNameRange   range: '>=3.0.0 <4.0.0',
+592 silly addNameRange   hasData: false }
+593 silly mapToRegistry name lodash.isarray
+594 silly mapToRegistry using default registry
+595 silly mapToRegistry registry https://registry.npmjs.org/
+596 silly mapToRegistry uri https://registry.npmjs.org/lodash.isarray
+597 verbose addNameRange registry:https://registry.npmjs.org/lodash.isarray not in flight; fetching
+598 silly cache add args [ 'lodash._getnative@^3.0.0', null ]
+599 verbose cache add spec lodash._getnative@^3.0.0
+600 silly cache add parsed spec { raw: 'lodash._getnative@^3.0.0',
+600 silly cache add   scope: null,
+600 silly cache add   name: 'lodash._getnative',
+600 silly cache add   rawSpec: '^3.0.0',
+600 silly cache add   spec: '>=3.0.0 <4.0.0',
+600 silly cache add   type: 'range' }
+601 silly addNamed lodash._getnative@>=3.0.0 <4.0.0
+602 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash._getnative
+603 silly addNameRange { name: 'lodash._getnative',
+603 silly addNameRange   range: '>=3.0.0 <4.0.0',
+603 silly addNameRange   hasData: false }
+604 silly mapToRegistry name lodash._getnative
+605 silly mapToRegistry using default registry
+606 silly mapToRegistry registry https://registry.npmjs.org/
+607 silly mapToRegistry uri https://registry.npmjs.org/lodash._getnative
+608 verbose addNameRange registry:https://registry.npmjs.org/lodash._getnative not in flight; fetching
+609 silly cache add args [ 'lodash.isarguments@^3.0.0', null ]
+610 verbose cache add spec lodash.isarguments@^3.0.0
+611 silly cache add parsed spec { raw: 'lodash.isarguments@^3.0.0',
+611 silly cache add   scope: null,
+611 silly cache add   name: 'lodash.isarguments',
+611 silly cache add   rawSpec: '^3.0.0',
+611 silly cache add   spec: '>=3.0.0 <4.0.0',
+611 silly cache add   type: 'range' }
+612 silly addNamed lodash.isarguments@>=3.0.0 <4.0.0
+613 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash.isarguments
+614 silly addNameRange { name: 'lodash.isarguments',
+614 silly addNameRange   range: '>=3.0.0 <4.0.0',
+614 silly addNameRange   hasData: false }
+615 silly mapToRegistry name lodash.isarguments
+616 silly mapToRegistry using default registry
+617 silly mapToRegistry registry https://registry.npmjs.org/
+618 silly mapToRegistry uri https://registry.npmjs.org/lodash.isarguments
+619 verbose addNameRange registry:https://registry.npmjs.org/lodash.isarguments not in flight; fetching
+620 verbose request uri https://registry.npmjs.org/lodash._getnative
+621 verbose request no auth needed
+622 info attempt registry request try #1 at 6:26:02 PM
+623 verbose etag "3SVNLKSR8B1QV2CE7Y4X2OE9J"
+624 http request GET https://registry.npmjs.org/lodash._getnative
+625 verbose request uri https://registry.npmjs.org/lodash.isarguments
+626 verbose request no auth needed
+627 info attempt registry request try #1 at 6:26:02 PM
+628 verbose etag "4F2JMSY336E868CO546R6TX7A"
+629 http request GET https://registry.npmjs.org/lodash.isarguments
+630 verbose request uri https://registry.npmjs.org/lodash.isarray
+631 verbose request no auth needed
+632 info attempt registry request try #1 at 6:26:02 PM
+633 verbose etag "DD13L05CGB0BXKMJO8EVTLF3F"
+634 http request GET https://registry.npmjs.org/lodash.isarray
+635 http 304 https://registry.npmjs.org/lodash._isiterateecall
+636 silly get cb [ 304,
+636 silly get   { date: 'Thu, 17 Mar 2016 12:56:02 GMT',
+636 silly get     via: '1.1 varnish',
+636 silly get     'cache-control': 'max-age=300',
+636 silly get     etag: '"5T12YB3BV3DYI9G8QK957PADV"',
+636 silly get     age: '124',
+636 silly get     connection: 'keep-alive',
+636 silly get     'x-served-by': 'cache-sin6923-SIN',
+636 silly get     'x-cache': 'HIT',
+636 silly get     'x-cache-hits': '2',
+636 silly get     'x-timer': 'S1458219362.445397,VS0,VE0',
+636 silly get     vary: 'Accept' } ]
+637 verbose etag https://registry.npmjs.org/lodash._isiterateecall from cache
+638 verbose get saving lodash._isiterateecall to C:\Users\amita\AppData\Roaming\npm-cache\registry.npmjs.org\lodash._isiterateecall\.cache.json
+639 http 304 https://registry.npmjs.org/lodash._getnative
+640 silly get cb [ 304,
+640 silly get   { date: 'Thu, 17 Mar 2016 12:56:02 GMT',
+640 silly get     via: '1.1 varnish',
+640 silly get     'cache-control': 'max-age=300',
+640 silly get     etag: '"3SVNLKSR8B1QV2CE7Y4X2OE9J"',
+640 silly get     age: '240',
+640 silly get     connection: 'keep-alive',
+640 silly get     'x-served-by': 'cache-sin6922-SIN',
+640 silly get     'x-cache': 'HIT',
+640 silly get     'x-cache-hits': '6',
+640 silly get     'x-timer': 'S1458219362.448431,VS0,VE0',
+640 silly get     vary: 'Accept' } ]
+641 verbose etag https://registry.npmjs.org/lodash._getnative from cache
+642 verbose get saving lodash._getnative to C:\Users\amita\AppData\Roaming\npm-cache\registry.npmjs.org\lodash._getnative\.cache.json
+643 http 304 https://registry.npmjs.org/lodash._bindcallback
+644 silly get cb [ 304,
+644 silly get   { date: 'Thu, 17 Mar 2016 12:56:02 GMT',
+644 silly get     via: '1.1 varnish',
+644 silly get     'cache-control': 'max-age=300',
+644 silly get     etag: '"4QCDH20MPKBVT8L2LY3OLQAXP"',
+644 silly get     age: '279',
+644 silly get     connection: 'keep-alive',
+644 silly get     'x-served-by': 'cache-sin6927-SIN',
+644 silly get     'x-cache': 'HIT',
+644 silly get     'x-cache-hits': '16',
+644 silly get     'x-timer': 'S1458219362.448945,VS0,VE0',
+644 silly get     vary: 'Accept' } ]
+645 verbose etag https://registry.npmjs.org/lodash._bindcallback from cache
+646 verbose get saving lodash._bindcallback to C:\Users\amita\AppData\Roaming\npm-cache\registry.npmjs.org\lodash._bindcallback\.cache.json
+647 silly addNameRange number 2 { name: 'lodash._isiterateecall',
+647 silly addNameRange   range: '>=3.0.0 <4.0.0',
+647 silly addNameRange   hasData: true }
+648 silly addNameRange versions [ 'lodash._isiterateecall',
+648 silly addNameRange   [ '3.0.0',
+648 silly addNameRange     '3.0.1',
+648 silly addNameRange     '3.0.2',
+648 silly addNameRange     '3.0.3',
+648 silly addNameRange     '3.0.4',
+648 silly addNameRange     '3.0.5',
+648 silly addNameRange     '3.0.6',
+648 silly addNameRange     '3.0.7',
+648 silly addNameRange     '3.0.8',
+648 silly addNameRange     '3.0.9' ] ]
+649 silly addNamed lodash._isiterateecall@3.0.9
+650 verbose addNamed "3.0.9" is a plain semver version for lodash._isiterateecall
+651 silly cache afterAdd lodash._isiterateecall@3.0.9
+652 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash._isiterateecall\3.0.9\package\package.json not in flight; writing
+653 silly addNameRange number 2 { name: 'lodash._getnative',
+653 silly addNameRange   range: '>=3.0.0 <4.0.0',
+653 silly addNameRange   hasData: true }
+654 silly addNameRange versions [ 'lodash._getnative', [ '3.9.0', '3.9.1' ] ]
+655 silly addNamed lodash._getnative@3.9.1
+656 verbose addNamed "3.9.1" is a plain semver version for lodash._getnative
+657 http 304 https://registry.npmjs.org/lodash.isarray
+658 silly get cb [ 304,
+658 silly get   { date: 'Thu, 17 Mar 2016 12:56:02 GMT',
+658 silly get     via: '1.1 varnish',
+658 silly get     'cache-control': 'max-age=300',
+658 silly get     etag: '"DD13L05CGB0BXKMJO8EVTLF3F"',
+658 silly get     age: '111',
+658 silly get     connection: 'keep-alive',
+658 silly get     'x-served-by': 'cache-sin6926-SIN',
+658 silly get     'x-cache': 'HIT',
+658 silly get     'x-cache-hits': '3',
+658 silly get     'x-timer': 'S1458219362.456256,VS0,VE0',
+658 silly get     vary: 'Accept' } ]
+659 verbose etag https://registry.npmjs.org/lodash.isarray from cache
+660 verbose get saving lodash.isarray to C:\Users\amita\AppData\Roaming\npm-cache\registry.npmjs.org\lodash.isarray\.cache.json
+661 silly addNameRange number 2 { name: 'lodash._bindcallback',
+661 silly addNameRange   range: '>=3.0.0 <4.0.0',
+661 silly addNameRange   hasData: true }
+662 silly addNameRange versions [ 'lodash._bindcallback', [ '3.0.0', '3.0.1' ] ]
+663 silly addNamed lodash._bindcallback@3.0.1
+664 verbose addNamed "3.0.1" is a plain semver version for lodash._bindcallback
+665 http 304 https://registry.npmjs.org/lodash._basecopy
+666 silly get cb [ 304,
+666 silly get   { date: 'Thu, 17 Mar 2016 12:56:02 GMT',
+666 silly get     via: '1.1 varnish',
+666 silly get     'cache-control': 'max-age=300',
+666 silly get     etag: '"9W88239PMDC1S83XDN4XKIKI"',
+666 silly get     age: '98',
+666 silly get     connection: 'keep-alive',
+666 silly get     'x-served-by': 'cache-sin6927-SIN',
+666 silly get     'x-cache': 'HIT',
+666 silly get     'x-cache-hits': '88',
+666 silly get     'x-timer': 'S1458219362.457041,VS0,VE0',
+666 silly get     vary: 'Accept' } ]
+667 verbose etag https://registry.npmjs.org/lodash._basecopy from cache
+668 verbose get saving lodash._basecopy to C:\Users\amita\AppData\Roaming\npm-cache\registry.npmjs.org\lodash._basecopy\.cache.json
+669 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash._isiterateecall\3.0.9\package\package.json written
+670 silly cache afterAdd lodash._getnative@3.9.1
+671 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash._getnative\3.9.1\package\package.json not in flight; writing
+672 silly cache afterAdd lodash._bindcallback@3.0.1
+673 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash._bindcallback\3.0.1\package\package.json not in flight; writing
+674 http 304 https://registry.npmjs.org/lodash.isarguments
+675 silly get cb [ 304,
+675 silly get   { date: 'Thu, 17 Mar 2016 12:56:02 GMT',
+675 silly get     via: '1.1 varnish',
+675 silly get     'cache-control': 'max-age=300',
+675 silly get     etag: '"4F2JMSY336E868CO546R6TX7A"',
+675 silly get     age: '152',
+675 silly get     connection: 'keep-alive',
+675 silly get     'x-served-by': 'cache-sin6921-SIN',
+675 silly get     'x-cache': 'HIT',
+675 silly get     'x-cache-hits': '3',
+675 silly get     'x-timer': 'S1458219362.459505,VS0,VE0',
+675 silly get     vary: 'Accept' } ]
+676 verbose etag https://registry.npmjs.org/lodash.isarguments from cache
+677 verbose get saving lodash.isarguments to C:\Users\amita\AppData\Roaming\npm-cache\registry.npmjs.org\lodash.isarguments\.cache.json
+678 silly addNameRange number 2 { name: 'lodash.isarray',
+678 silly addNameRange   range: '>=3.0.0 <4.0.0',
+678 silly addNameRange   hasData: true }
+679 silly addNameRange versions [ 'lodash.isarray',
+679 silly addNameRange   [ '2.0.0',
+679 silly addNameRange     '2.1.0',
+679 silly addNameRange     '2.2.0',
+679 silly addNameRange     '2.2.1',
+679 silly addNameRange     '2.3.0',
+679 silly addNameRange     '2.4.0',
+679 silly addNameRange     '2.4.1',
+679 silly addNameRange     '3.0.0',
+679 silly addNameRange     '3.0.1',
+679 silly addNameRange     '3.0.2',
+679 silly addNameRange     '3.0.3',
+679 silly addNameRange     '3.0.4',
+679 silly addNameRange     '4.0.0' ] ]
+680 silly addNamed lodash.isarray@3.0.4
+681 verbose addNamed "3.0.4" is a plain semver version for lodash.isarray
+682 silly addNameRange number 2 { name: 'lodash._basecopy',
+682 silly addNameRange   range: '>=3.0.0 <4.0.0',
+682 silly addNameRange   hasData: true }
+683 silly addNameRange versions [ 'lodash._basecopy', [ '3.0.0', '3.0.1' ] ]
+684 silly addNamed lodash._basecopy@3.0.1
+685 verbose addNamed "3.0.1" is a plain semver version for lodash._basecopy
+686 http 304 https://registry.npmjs.org/lodash.restparam
+687 silly get cb [ 304,
+687 silly get   { date: 'Thu, 17 Mar 2016 12:56:02 GMT',
+687 silly get     via: '1.1 varnish',
+687 silly get     'cache-control': 'max-age=300',
+687 silly get     etag: '"1659M1VRENH47KDVLN4NUNM18"',
+687 silly get     age: '124',
+687 silly get     connection: 'keep-alive',
+687 silly get     'x-served-by': 'cache-sin6921-SIN',
+687 silly get     'x-cache': 'HIT',
+687 silly get     'x-cache-hits': '89',
+687 silly get     'x-timer': 'S1458219362.462660,VS0,VE0',
+687 silly get     vary: 'Accept' } ]
+688 verbose etag https://registry.npmjs.org/lodash.restparam from cache
+689 verbose get saving lodash.restparam to C:\Users\amita\AppData\Roaming\npm-cache\registry.npmjs.org\lodash.restparam\.cache.json
+690 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash._getnative\3.9.1\package\package.json written
+691 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash._bindcallback\3.0.1\package\package.json written
+692 silly cache afterAdd lodash.isarray@3.0.4
+693 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash.isarray\3.0.4\package\package.json not in flight; writing
+694 silly cache afterAdd lodash._basecopy@3.0.1
+695 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash._basecopy\3.0.1\package\package.json not in flight; writing
+696 silly addNameRange number 2 { name: 'lodash.isarguments',
+696 silly addNameRange   range: '>=3.0.0 <4.0.0',
+696 silly addNameRange   hasData: true }
+697 silly addNameRange versions [ 'lodash.isarguments',
+697 silly addNameRange   [ '2.0.0',
+697 silly addNameRange     '2.1.0',
+697 silly addNameRange     '2.2.0',
+697 silly addNameRange     '2.2.1',
+697 silly addNameRange     '2.3.0',
+697 silly addNameRange     '2.4.0',
+697 silly addNameRange     '2.4.1',
+697 silly addNameRange     '3.0.0',
+697 silly addNameRange     '3.0.1',
+697 silly addNameRange     '3.0.2',
+697 silly addNameRange     '3.0.3',
+697 silly addNameRange     '3.0.4',
+697 silly addNameRange     '3.0.5',
+697 silly addNameRange     '3.0.6',
+697 silly addNameRange     '3.0.7',
+697 silly addNameRange     '3.0.8' ] ]
+698 silly addNamed lodash.isarguments@3.0.8
+699 verbose addNamed "3.0.8" is a plain semver version for lodash.isarguments
+700 silly addNameRange number 2 { name: 'lodash.restparam',
+700 silly addNameRange   range: '>=3.0.0 <4.0.0',
+700 silly addNameRange   hasData: true }
+701 silly addNameRange versions [ 'lodash.restparam', [ '3.6.0', '3.6.1' ] ]
+702 silly addNamed lodash.restparam@3.6.1
+703 verbose addNamed "3.6.1" is a plain semver version for lodash.restparam
+704 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash.isarray\3.0.4\package\package.json written
+705 silly cache afterAdd lodash.isarguments@3.0.8
+706 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash.isarguments\3.0.8\package\package.json not in flight; writing
+707 silly cache afterAdd lodash.restparam@3.6.1
+708 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash.restparam\3.6.1\package\package.json not in flight; writing
+709 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash._basecopy\3.0.1\package\package.json written
+710 silly install resolved [ { name: 'lodash._basecopy',
+710 silly install resolved     version: '3.0.1',
+710 silly install resolved     description: 'The modern build of lodash’s internal `baseCopy` as a module.',
+710 silly install resolved     homepage: 'https://lodash.com/',
+710 silly install resolved     icon: 'https://lodash.com/icon.svg',
+710 silly install resolved     license: 'MIT',
+710 silly install resolved     author:
+710 silly install resolved      { name: 'John-David Dalton',
+710 silly install resolved        email: 'john.david.dalton@gmail.com',
+710 silly install resolved        url: 'http://allyoucanleet.com/' },
+710 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+710 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+710 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+710 silly install resolved     readme: '# lodash._basecopy v3.0.1\n\nThe [modern build](https://github.com/lodash/lodash/wiki/Build-Differences) of [lodash’s](https://lodash.com/) internal `baseCopy` exported as a [Node.js](http://nodejs.org/)/[io.js](https://iojs.org/) module.\n\n## Installation\n\nUsing npm:\n\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash._basecopy\n```\n\nIn Node.js/io.js:\n\n```js\nvar baseCopy = require(\'lodash._basecopy\');\n```\n\nSee the [package source](https://github.com/lodash/lodash/blob/3.0.1-npm-packages/lodash._basecopy) for more details.\n',
+710 silly install resolved     readmeFilename: 'README.md',
+710 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+710 silly install resolved     _id: 'lodash._basecopy@3.0.1',
+710 silly install resolved     _shasum: '8da0e6a876cf344c0ad8a54882111dd3c5c7ca36',
+710 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash._basecopy/-/lodash._basecopy-3.0.1.tgz',
+710 silly install resolved     _from: 'lodash._basecopy@>=3.0.0 <4.0.0' } ]
+711 info install lodash._basecopy@3.0.1 into F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign
+712 info installOne lodash._basecopy@3.0.1
+713 verbose installOne of lodash._basecopy to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign not in flight; installing
+714 verbose lock using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-basecopy-9611c50a3bda46d7.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\node_modules\lodash._basecopy
+715 silly install write writing lodash._basecopy 3.0.1 to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\node_modules\lodash._basecopy
+716 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash.restparam\3.6.1\package\package.json written
+717 silly install resolved [ { name: 'lodash._isiterateecall',
+717 silly install resolved     version: '3.0.9',
+717 silly install resolved     description: 'The modern build of lodash’s internal `isIterateeCall` as a module.',
+717 silly install resolved     homepage: 'https://lodash.com/',
+717 silly install resolved     icon: 'https://lodash.com/icon.svg',
+717 silly install resolved     license: 'MIT',
+717 silly install resolved     author:
+717 silly install resolved      { name: 'John-David Dalton',
+717 silly install resolved        email: 'john.david.dalton@gmail.com',
+717 silly install resolved        url: 'http://allyoucanleet.com/' },
+717 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+717 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+717 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+717 silly install resolved     readme: '# lodash._isiterateecall v3.0.9\n\nThe [modern build](https://github.com/lodash/lodash/wiki/Build-Differences) of [lodash’s](https://lodash.com/) internal `isIterateeCall` exported as a [Node.js](http://nodejs.org/)/[io.js](https://iojs.org/) module.\n\n## Installation\n\nUsing npm:\n\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash._isiterateecall\n```\n\nIn Node.js/io.js:\n\n```js\nvar isIterateeCall = require(\'lodash._isiterateecall\');\n```\n\nSee the [package source](https://github.com/lodash/lodash/blob/3.0.9-npm-packages/lodash._isiterateecall) for more details.\n',
+717 silly install resolved     readmeFilename: 'README.md',
+717 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+717 silly install resolved     _id: 'lodash._isiterateecall@3.0.9',
+717 silly install resolved     _shasum: '5203ad7ba425fae842460e696db9cf3e6aac057c',
+717 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash._isiterateecall/-/lodash._isiterateecall-3.0.9.tgz',
+717 silly install resolved     _from: 'lodash._isiterateecall@>=3.0.0 <4.0.0' },
+717 silly install resolved   { name: 'lodash._bindcallback',
+717 silly install resolved     version: '3.0.1',
+717 silly install resolved     description: 'The modern build of lodash’s internal `bindCallback` as a module.',
+717 silly install resolved     homepage: 'https://lodash.com/',
+717 silly install resolved     icon: 'https://lodash.com/icon.svg',
+717 silly install resolved     license: 'MIT',
+717 silly install resolved     author:
+717 silly install resolved      { name: 'John-David Dalton',
+717 silly install resolved        email: 'john.david.dalton@gmail.com',
+717 silly install resolved        url: 'http://allyoucanleet.com/' },
+717 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+717 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+717 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+717 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+717 silly install resolved     _id: 'lodash._bindcallback@3.0.1',
+717 silly install resolved     _shasum: 'e531c27644cf8b57a99e17ed95b35c748789392e',
+717 silly install resolved     _from: 'lodash._bindcallback@>=3.0.0 <4.0.0',
+717 silly install resolved     _npmVersion: '2.7.6',
+717 silly install resolved     _nodeVersion: '0.12.2',
+717 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+717 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+717 silly install resolved     dist:
+717 silly install resolved      { shasum: 'e531c27644cf8b57a99e17ed95b35c748789392e',
+717 silly install resolved        tarball: 'http://registry.npmjs.org/lodash._bindcallback/-/lodash._bindcallback-3.0.1.tgz' },
+717 silly install resolved     directories: {},
+717 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash._bindcallback/-/lodash._bindcallback-3.0.1.tgz',
+717 silly install resolved     readme: 'ERROR: No README data found!' },
+717 silly install resolved   { name: 'lodash.restparam',
+717 silly install resolved     version: '3.6.1',
+717 silly install resolved     description: 'The modern build of lodash’s `_.restParam` as a module.',
+717 silly install resolved     homepage: 'https://lodash.com/',
+717 silly install resolved     icon: 'https://lodash.com/icon.svg',
+717 silly install resolved     license: 'MIT',
+717 silly install resolved     keywords: [ 'lodash', 'lodash-modularized', 'stdlib', 'util' ],
+717 silly install resolved     author:
+717 silly install resolved      { name: 'John-David Dalton',
+717 silly install resolved        email: 'john.david.dalton@gmail.com',
+717 silly install resolved        url: 'http://allyoucanleet.com/' },
+717 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+717 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+717 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+717 silly install resolved     readme: '# lodash.restparam v3.6.1\n\nThe [modern build](https://github.com/lodash/lodash/wiki/Build-Differences) of [lodash’s](https://lodash.com/) `_.restParam` exported as a [Node.js](http://nodejs.org/)/[io.js](https://iojs.org/) module.\n\n## Installation\n\nUsing npm:\n\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.restparam\n```\n\nIn Node.js/io.js:\n\n```js\nvar restParam = require(\'lodash.restparam\');\n```\n\nSee the [documentation](https://lodash.com/docs#restParam) or [package source](https://github.com/lodash/lodash/blob/3.6.1-npm-packages/lodash.restparam) for more details.\n',
+717 silly install resolved     readmeFilename: 'README.md',
+717 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+717 silly install resolved     _id: 'lodash.restparam@3.6.1',
+717 silly install resolved     _shasum: '936a4e309ef330a7645ed4145986c85ae5b20805',
+717 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.restparam/-/lodash.restparam-3.6.1.tgz',
+717 silly install resolved     _from: 'lodash.restparam@>=3.0.0 <4.0.0' } ]
+718 info install lodash._isiterateecall@3.0.9 into F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner
+719 info install lodash._bindcallback@3.0.1 into F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner
+720 info install lodash.restparam@3.6.1 into F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner
+721 info installOne lodash._isiterateecall@3.0.9
+722 verbose installOne of lodash._isiterateecall to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner not in flight; installing
+723 info installOne lodash._bindcallback@3.0.1
+724 verbose installOne of lodash._bindcallback to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner not in flight; installing
+725 info installOne lodash.restparam@3.6.1
+726 verbose installOne of lodash.restparam to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner not in flight; installing
+727 verbose afterAdd C:\Users\amita\AppData\Roaming\npm-cache\lodash.isarguments\3.0.8\package\package.json written
+728 silly install resolved [ { name: 'lodash._getnative',
+728 silly install resolved     version: '3.9.1',
+728 silly install resolved     description: 'The modern build of lodash’s internal `getNative` as a module.',
+728 silly install resolved     homepage: 'https://lodash.com/',
+728 silly install resolved     icon: 'https://lodash.com/icon.svg',
+728 silly install resolved     license: 'MIT',
+728 silly install resolved     author:
+728 silly install resolved      { name: 'John-David Dalton',
+728 silly install resolved        email: 'john.david.dalton@gmail.com',
+728 silly install resolved        url: 'http://allyoucanleet.com/' },
+728 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+728 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+728 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+728 silly install resolved     readme: '# lodash._getnative v3.9.1\n\nThe [modern build](https://github.com/lodash/lodash/wiki/Build-Differences) of [lodash’s](https://lodash.com/) internal `getNative` exported as a [Node.js](http://nodejs.org/)/[io.js](https://iojs.org/) module.\n\n## Installation\n\nUsing npm:\n\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash._getnative\n```\n\nIn Node.js/io.js:\n\n```js\nvar getNative = require(\'lodash._getnative\');\n```\n\nSee the [package source](https://github.com/lodash/lodash/blob/3.9.1-npm-packages/lodash._getnative) for more details.\n',
+728 silly install resolved     readmeFilename: 'README.md',
+728 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+728 silly install resolved     _id: 'lodash._getnative@3.9.1',
+728 silly install resolved     _shasum: '570bc7dede46d61cdcde687d65d3eecbaa3aaff5',
+728 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash._getnative/-/lodash._getnative-3.9.1.tgz',
+728 silly install resolved     _from: 'lodash._getnative@>=3.0.0 <4.0.0' },
+728 silly install resolved   { name: 'lodash.isarray',
+728 silly install resolved     version: '3.0.4',
+728 silly install resolved     description: 'The modern build of lodash’s `_.isArray` as a module.',
+728 silly install resolved     homepage: 'https://lodash.com/',
+728 silly install resolved     icon: 'https://lodash.com/icon.svg',
+728 silly install resolved     license: 'MIT',
+728 silly install resolved     keywords: [ 'lodash', 'lodash-modularized', 'stdlib', 'util' ],
+728 silly install resolved     author:
+728 silly install resolved      { name: 'John-David Dalton',
+728 silly install resolved        email: 'john.david.dalton@gmail.com',
+728 silly install resolved        url: 'http://allyoucanleet.com/' },
+728 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+728 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+728 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+728 silly install resolved     readme: '# lodash.isarray v3.0.4\n\nThe [modern build](https://github.com/lodash/lodash/wiki/Build-Differences) of [lodash’s](https://lodash.com/) `_.isArray` exported as a [Node.js](http://nodejs.org/)/[io.js](https://iojs.org/) module.\n\n## Installation\n\nUsing npm:\n\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.isarray\n```\n\nIn Node.js/io.js:\n\n```js\nvar isArray = require(\'lodash.isarray\');\n```\n\nSee the [documentation](https://lodash.com/docs#isArray) or [package source](https://github.com/lodash/lodash/blob/3.0.4-npm-packages/lodash.isarray) for more details.\n',
+728 silly install resolved     readmeFilename: 'README.md',
+728 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+728 silly install resolved     _id: 'lodash.isarray@3.0.4',
+728 silly install resolved     _shasum: '79e4eb88c36a8122af86f844aa9bcd851b5fbb55',
+728 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.isarray/-/lodash.isarray-3.0.4.tgz',
+728 silly install resolved     _from: 'lodash.isarray@>=3.0.0 <4.0.0' },
+728 silly install resolved   { name: 'lodash.isarguments',
+728 silly install resolved     version: '3.0.8',
+728 silly install resolved     description: 'The lodash method `_.isArguments` exported as a module.',
+728 silly install resolved     homepage: 'https://lodash.com/',
+728 silly install resolved     icon: 'https://lodash.com/icon.svg',
+728 silly install resolved     license: 'MIT',
+728 silly install resolved     keywords: [ 'lodash-modularized', 'isarguments' ],
+728 silly install resolved     author:
+728 silly install resolved      { name: 'John-David Dalton',
+728 silly install resolved        email: 'john.david.dalton@gmail.com',
+728 silly install resolved        url: 'http://allyoucanleet.com/' },
+728 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+728 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+728 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+728 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+728 silly install resolved     _id: 'lodash.isarguments@3.0.8',
+728 silly install resolved     _shasum: '5bf8da887f01f2a9e49c0a175cdaeb318a0e43dc',
+728 silly install resolved     _from: 'lodash.isarguments@>=3.0.0 <4.0.0',
+728 silly install resolved     _npmVersion: '2.14.17',
+728 silly install resolved     _nodeVersion: '5.5.0',
+728 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+728 silly install resolved     dist:
+728 silly install resolved      { shasum: '5bf8da887f01f2a9e49c0a175cdaeb318a0e43dc',
+728 silly install resolved        tarball: 'http://registry.npmjs.org/lodash.isarguments/-/lodash.isarguments-3.0.8.tgz' },
+728 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+728 silly install resolved     _npmOperationalInternal:
+728 silly install resolved      { host: 'packages-13-west.internal.npmjs.com',
+728 silly install resolved        tmp: 'tmp/lodash.isarguments-3.0.8.tgz_1456896618197_0.925266777863726' },
+728 silly install resolved     directories: {},
+728 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.isarguments/-/lodash.isarguments-3.0.8.tgz',
+728 silly install resolved     readme: 'ERROR: No README data found!' } ]
+729 info install lodash._getnative@3.9.1 into F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys
+730 info install lodash.isarray@3.0.4 into F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys
+731 info install lodash.isarguments@3.0.8 into F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys
+732 info installOne lodash._getnative@3.9.1
+733 verbose installOne of lodash._getnative to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys not in flight; installing
+734 info installOne lodash.isarray@3.0.4
+735 verbose installOne of lodash.isarray to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys not in flight; installing
+736 info installOne lodash.isarguments@3.0.8
+737 verbose installOne of lodash.isarguments to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys not in flight; installing
+738 verbose unbuild node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\node_modules\lodash._basecopy
+739 verbose lock using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-bindcallback-2ebb634f7d13f572.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._bindcallback
+740 verbose lock using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-restparam-4d12d89ec20b9770.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash.restparam
+741 verbose lock using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-isiterateecall-1434feea1a66f17f.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._isiterateecall
+742 verbose lock using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-getnative-49fb4e763d9c14a1.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash._getnative
+743 silly install write writing lodash._bindcallback 3.0.1 to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._bindcallback
+744 silly install write writing lodash.restparam 3.6.1 to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash.restparam
+745 silly install write writing lodash._isiterateecall 3.0.9 to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._isiterateecall
+746 verbose lock using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-isarguments-7888364931e2d778.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarguments
+747 silly install write writing lodash._getnative 3.9.1 to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash._getnative
+748 verbose lock using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-isarray-46c56f2e5f088206.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarray
+749 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\node_modules\lodash._basecopy is being purged from base F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+750 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\node_modules\lodash._basecopy
+751 silly install write writing lodash.isarguments 3.0.8 to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarguments
+752 silly install write writing lodash.isarray 3.0.4 to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarray
+753 verbose tar unpack C:\Users\amita\AppData\Roaming\npm-cache\lodash._basecopy\3.0.1\package.tgz
+754 verbose tar unpacking to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\node_modules\lodash._basecopy
+755 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\node_modules\lodash._basecopy is being purged
+756 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\node_modules\lodash._basecopy
+757 silly gunzTarPerm modes [ '777', '666' ]
+758 verbose unbuild node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._isiterateecall
+759 verbose unbuild node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._bindcallback
+760 verbose unbuild node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash._getnative
+761 verbose unbuild node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash.restparam
+762 verbose unbuild node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarguments
+763 verbose unbuild node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarray
+764 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._isiterateecall is being purged from base F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+765 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._isiterateecall
+766 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._bindcallback is being purged from base F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+767 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._bindcallback
+768 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash._getnative is being purged from base F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+769 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash._getnative
+770 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash.restparam is being purged from base F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+771 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash.restparam
+772 verbose tar unpack C:\Users\amita\AppData\Roaming\npm-cache\lodash._isiterateecall\3.0.9\package.tgz
+773 verbose tar unpacking to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._isiterateecall
+774 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._isiterateecall is being purged
+775 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._isiterateecall
+776 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarguments is being purged from base F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+777 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarguments
+778 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarray is being purged from base F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+779 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarray
+780 verbose tar unpack C:\Users\amita\AppData\Roaming\npm-cache\lodash._bindcallback\3.0.1\package.tgz
+781 verbose tar unpacking to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._bindcallback
+782 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._bindcallback is being purged
+783 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._bindcallback
+784 verbose tar unpack C:\Users\amita\AppData\Roaming\npm-cache\lodash._getnative\3.9.1\package.tgz
+785 verbose tar unpacking to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash._getnative
+786 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash._getnative is being purged
+787 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash._getnative
+788 verbose tar unpack C:\Users\amita\AppData\Roaming\npm-cache\lodash.restparam\3.6.1\package.tgz
+789 verbose tar unpacking to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash.restparam
+790 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash.restparam is being purged
+791 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash.restparam
+792 silly gunzTarPerm modes [ '777', '666' ]
+793 verbose tar unpack C:\Users\amita\AppData\Roaming\npm-cache\lodash.isarguments\3.0.8\package.tgz
+794 verbose tar unpacking to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarguments
+795 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarguments is being purged
+796 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarguments
+797 verbose tar unpack C:\Users\amita\AppData\Roaming\npm-cache\lodash.isarray\3.0.4\package.tgz
+798 verbose tar unpacking to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarray
+799 silly gentlyRm F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarray is being purged
+800 verbose gentlyRm don't care about contents; nuking F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarray
+801 silly gunzTarPerm modes [ '777', '666' ]
+802 silly gunzTarPerm modes [ '777', '666' ]
+803 silly gunzTarPerm modes [ '777', '666' ]
+804 silly gunzTarPerm extractEntry package.json
+805 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+806 silly gunzTarPerm modes [ '777', '666' ]
+807 silly gunzTarPerm modes [ '777', '666' ]
+808 silly gunzTarPerm extractEntry package.json
+809 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+810 silly gunzTarPerm extractEntry package.json
+811 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+812 silly gunzTarPerm extractEntry README.md
+813 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+814 silly gunzTarPerm extractEntry index.js
+815 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+816 silly gunzTarPerm extractEntry package.json
+817 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+818 silly gunzTarPerm extractEntry package.json
+819 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+820 silly gunzTarPerm extractEntry package.json
+821 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+822 silly gunzTarPerm extractEntry package.json
+823 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+824 silly gunzTarPerm extractEntry README.md
+825 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+826 silly gunzTarPerm extractEntry index.js
+827 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+828 silly gunzTarPerm extractEntry README.md
+829 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+830 silly gunzTarPerm extractEntry index.js
+831 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+832 silly gunzTarPerm extractEntry README.md
+833 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+834 silly gunzTarPerm extractEntry index.js
+835 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+836 silly gunzTarPerm extractEntry README.md
+837 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+838 silly gunzTarPerm extractEntry LICENSE
+839 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+840 silly gunzTarPerm extractEntry README.md
+841 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+842 silly gunzTarPerm extractEntry LICENSE
+843 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+844 silly gunzTarPerm extractEntry README.md
+845 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+846 silly gunzTarPerm extractEntry LICENSE
+847 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+848 silly gunzTarPerm extractEntry LICENSE.txt
+849 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+850 silly gunzTarPerm extractEntry LICENSE.txt
+851 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+852 silly gunzTarPerm extractEntry index.js
+853 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+854 silly gunzTarPerm extractEntry LICENSE.txt
+855 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+856 silly gunzTarPerm extractEntry LICENSE.txt
+857 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+858 silly gunzTarPerm extractEntry index.js
+859 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+860 silly gunzTarPerm extractEntry index.js
+861 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+862 verbose write writing to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\node_modules\lodash._basecopy\package.json
+863 verbose write writing to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._bindcallback\package.json
+864 info preinstall lodash._basecopy@3.0.1
+865 verbose write writing to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash.restparam\package.json
+866 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\node_modules\lodash._basecopy\package.json
+867 verbose write writing to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash._getnative\package.json
+868 verbose write writing to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarray\package.json
+869 info preinstall lodash._bindcallback@3.0.1
+870 verbose write writing to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._isiterateecall\package.json
+871 info preinstall lodash.restparam@3.6.1
+872 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._bindcallback\package.json
+873 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\node_modules\lodash._basecopy\package.json
+874 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash.restparam\package.json
+875 info preinstall lodash.isarray@3.0.4
+876 info preinstall lodash._getnative@3.9.1
+877 verbose write writing to F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarguments\package.json
+878 info preinstall lodash._isiterateecall@3.0.9
+879 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarray\package.json
+880 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash._getnative\package.json
+881 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._bindcallback\package.json
+882 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._isiterateecall\package.json
+883 silly install resolved []
+884 verbose about to build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\node_modules\lodash._basecopy
+885 info build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\node_modules\lodash._basecopy
+886 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash.restparam\package.json
+887 info preinstall lodash.isarguments@3.0.8
+888 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarray\package.json
+889 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash._getnative\package.json
+890 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarguments\package.json
+891 info linkStuff lodash._basecopy@3.0.1
+892 silly linkStuff lodash._basecopy@3.0.1 has F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\node_modules as its parent node_modules
+893 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._isiterateecall\package.json
+894 silly install resolved []
+895 verbose about to build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._bindcallback
+896 info build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._bindcallback
+897 silly install resolved []
+898 verbose about to build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash.restparam
+899 info build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash.restparam
+900 silly install resolved []
+901 verbose about to build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash._getnative
+902 info build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash._getnative
+903 silly install resolved []
+904 verbose about to build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarray
+905 info build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarray
+906 verbose readDependencies loading dependencies from F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarguments\package.json
+907 info linkStuff lodash._bindcallback@3.0.1
+908 silly linkStuff lodash._bindcallback@3.0.1 has F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules as its parent node_modules
+909 silly install resolved []
+910 verbose about to build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._isiterateecall
+911 info build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._isiterateecall
+912 info linkStuff lodash.restparam@3.6.1
+913 silly linkStuff lodash.restparam@3.6.1 has F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules as its parent node_modules
+914 info linkStuff lodash._getnative@3.9.1
+915 silly linkStuff lodash._getnative@3.9.1 has F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules as its parent node_modules
+916 info linkStuff lodash.isarray@3.0.4
+917 silly linkStuff lodash.isarray@3.0.4 has F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules as its parent node_modules
+918 info linkStuff lodash._isiterateecall@3.0.9
+919 silly linkStuff lodash._isiterateecall@3.0.9 has F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules as its parent node_modules
+920 verbose linkBins lodash._basecopy@3.0.1
+921 verbose linkMans lodash._basecopy@3.0.1
+922 verbose rebuildBundles lodash._basecopy@3.0.1
+923 silly install resolved []
+924 verbose about to build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarguments
+925 info build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarguments
+926 info install lodash._basecopy@3.0.1
+927 info postinstall lodash._basecopy@3.0.1
+928 info linkStuff lodash.isarguments@3.0.8
+929 silly linkStuff lodash.isarguments@3.0.8 has F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules as its parent node_modules
+930 verbose linkBins lodash._bindcallback@3.0.1
+931 verbose linkMans lodash._bindcallback@3.0.1
+932 verbose rebuildBundles lodash._bindcallback@3.0.1
+933 verbose unlock done using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-basecopy-9611c50a3bda46d7.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign\node_modules\lodash._basecopy
+934 verbose about to build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign
+935 info build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign
+936 info install lodash._bindcallback@3.0.1
+937 verbose linkBins lodash.restparam@3.6.1
+938 verbose linkMans lodash.restparam@3.6.1
+939 verbose rebuildBundles lodash.restparam@3.6.1
+940 info install lodash.restparam@3.6.1
+941 info postinstall lodash._bindcallback@3.0.1
+942 verbose linkBins lodash._getnative@3.9.1
+943 verbose linkMans lodash._getnative@3.9.1
+944 verbose rebuildBundles lodash._getnative@3.9.1
+945 verbose linkBins lodash.isarray@3.0.4
+946 verbose linkMans lodash.isarray@3.0.4
+947 verbose rebuildBundles lodash.isarray@3.0.4
+948 verbose linkBins lodash._isiterateecall@3.0.9
+949 verbose linkMans lodash._isiterateecall@3.0.9
+950 verbose rebuildBundles lodash._isiterateecall@3.0.9
+951 info install lodash._getnative@3.9.1
+952 info install lodash.isarray@3.0.4
+953 info linkStuff lodash._baseassign@3.2.0
+954 silly linkStuff lodash._baseassign@3.2.0 has F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules as its parent node_modules
+955 info postinstall lodash.restparam@3.6.1
+956 info install lodash._isiterateecall@3.0.9
+957 verbose unlock done using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-bindcallback-2ebb634f7d13f572.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._bindcallback
+958 info postinstall lodash._getnative@3.9.1
+959 info postinstall lodash.isarray@3.0.4
+960 info postinstall lodash._isiterateecall@3.0.9
+961 verbose unlock done using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-restparam-4d12d89ec20b9770.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash.restparam
+962 verbose unlock done using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-getnative-49fb4e763d9c14a1.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash._getnative
+963 verbose unlock done using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-isarray-46c56f2e5f088206.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarray
+964 verbose linkBins lodash.isarguments@3.0.8
+965 verbose linkMans lodash.isarguments@3.0.8
+966 verbose rebuildBundles lodash.isarguments@3.0.8
+967 verbose unlock done using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-isiterateecall-1434feea1a66f17f.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner\node_modules\lodash._isiterateecall
+968 verbose about to build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner
+969 info build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner
+970 info install lodash.isarguments@3.0.8
+971 info postinstall lodash.isarguments@3.0.8
+972 verbose linkBins lodash._baseassign@3.2.0
+973 verbose linkMans lodash._baseassign@3.2.0
+974 verbose rebuildBundles lodash._baseassign@3.2.0
+975 info linkStuff lodash._createassigner@3.1.1
+976 silly linkStuff lodash._createassigner@3.1.1 has F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules as its parent node_modules
+977 verbose rebuildBundles [ 'lodash._basecopy' ]
+978 info install lodash._baseassign@3.2.0
+979 verbose unlock done using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-isarguments-7888364931e2d778.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys\node_modules\lodash.isarguments
+980 verbose about to build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys
+981 info build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys
+982 info postinstall lodash._baseassign@3.2.0
+983 info linkStuff lodash.keys@3.1.2
+984 silly linkStuff lodash.keys@3.1.2 has F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules as its parent node_modules
+985 verbose unlock done using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-baseassign-0d026b957a011d2e.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._baseassign
+986 verbose linkBins lodash._createassigner@3.1.1
+987 verbose linkMans lodash._createassigner@3.1.1
+988 verbose rebuildBundles lodash._createassigner@3.1.1
+989 verbose rebuildBundles [ 'lodash._bindcallback',
+989 verbose rebuildBundles   'lodash._isiterateecall',
+989 verbose rebuildBundles   'lodash.restparam' ]
+990 info install lodash._createassigner@3.1.1
+991 info postinstall lodash._createassigner@3.1.1
+992 verbose linkBins lodash.keys@3.1.2
+993 verbose linkMans lodash.keys@3.1.2
+994 verbose rebuildBundles lodash.keys@3.1.2
+995 verbose unlock done using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-createassigner-a9a5fceeaa8f63d8.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash._createassigner
+996 verbose rebuildBundles [ 'lodash._getnative', 'lodash.isarguments', 'lodash.isarray' ]
+997 info install lodash.keys@3.1.2
+998 info postinstall lodash.keys@3.1.2
+999 verbose unlock done using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-keys-d30092764a577836.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign\node_modules\lodash.keys
+1000 verbose about to build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign
+1001 info build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign
+1002 info linkStuff lodash.assign@3.2.0
+1003 silly linkStuff lodash.assign@3.2.0 has F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules as its parent node_modules
+1004 verbose linkBins lodash.assign@3.2.0
+1005 verbose linkMans lodash.assign@3.2.0
+1006 verbose rebuildBundles lodash.assign@3.2.0
+1007 verbose rebuildBundles [ 'lodash._baseassign', 'lodash._createassigner', 'lodash.keys' ]
+1008 info install lodash.assign@3.2.0
+1009 info postinstall lodash.assign@3.2.0
+1010 verbose unlock done using C:\Users\amita\AppData\Roaming\npm-cache\_locks\lodash-assign-1ec2d126049ec605.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal\node_modules\lodash.assign
+1011 verbose about to build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal
+1012 info build F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal
+1013 info linkStuff react-modal@0.6.1
+1014 silly linkStuff react-modal@0.6.1 has F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules as its parent node_modules
+1015 verbose linkBins react-modal@0.6.1
+1016 verbose linkMans react-modal@0.6.1
+1017 verbose rebuildBundles react-modal@0.6.1
+1018 verbose rebuildBundles [ 'element-class', 'exenv', 'lodash.assign' ]
+1019 info install react-modal@0.6.1
+1020 info postinstall react-modal@0.6.1
+1021 verbose unlock done using C:\Users\amita\AppData\Roaming\npm-cache\_locks\react-modal-57ab1d4233d942d1.lock for F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\node_modules\react-modal
+1022 verbose validateInstall loading F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux\package.json for validation
+1023 verbose stack Error: The package redux-devtools does not satisfy its siblings' peerDependencies requirements!
+1023 verbose stack     at C:\Users\amita\AppData\Roaming\nvm\v0.12.7\node_modules\npm\lib\install.js:125:32
+1023 verbose stack     at C:\Users\amita\AppData\Roaming\nvm\v0.12.7\node_modules\npm\lib\install.js:267:7
+1023 verbose stack     at C:\Users\amita\AppData\Roaming\nvm\v0.12.7\node_modules\npm\node_modules\read-installed\read-installed.js:138:5
+1023 verbose stack     at C:\Users\amita\AppData\Roaming\nvm\v0.12.7\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+1023 verbose stack     at cb (C:\Users\amita\AppData\Roaming\nvm\v0.12.7\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1023 verbose stack     at C:\Users\amita\AppData\Roaming\nvm\v0.12.7\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+1023 verbose stack     at cb (C:\Users\amita\AppData\Roaming\nvm\v0.12.7\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1023 verbose stack     at C:\Users\amita\AppData\Roaming\nvm\v0.12.7\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+1023 verbose stack     at cb (C:\Users\amita\AppData\Roaming\nvm\v0.12.7\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1023 verbose stack     at C:\Users\amita\AppData\Roaming\nvm\v0.12.7\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+1024 verbose cwd F:\STUFF\myGitHubRepoes\react_redux_poc\react_redux
+1025 error Windows_NT 6.1.7601
+1026 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "react-modal" "--save"
+1027 error node v0.12.7
+1028 error npm  v2.11.3
+1029 error code EPEERINVALID
+1030 error peerinvalid The package redux-devtools does not satisfy its siblings' peerDependencies requirements!
+1030 error peerinvalid Peer redux-devtools-dock-monitor@1.1.0 wants redux-devtools@^3.0.0
+1030 error peerinvalid Peer redux-devtools-log-monitor@1.0.5 wants redux-devtools@^3.0.0
+1031 verbose exit [ 1, true ]

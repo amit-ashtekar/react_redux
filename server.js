@@ -37,6 +37,20 @@ console.log(req.body);
         res.sendStatus(403);
     }
 });
+app.get('/getItems/',function(req,res){
+    console.log('req',req);
+    var token=req.headers['authorization'];
+    console.log("token",token);
+    if(!token){
+        res.sendStatus(401);
+    }
+    else{
+        res.status(200)
+            .json([ {"id": 1, "title": "iPad 4 Mini", "price": 500.01, "inventory": 2},
+                {"id": 2, "title": "H&M T-Shirt White", "price": 10.99, "inventory": 10},
+                {"id": 3, "title": "Charli XCX - Sucker CD", "price": 19.99, "inventory": 5}]);
+    }
+});
 //
 //app.get('/getData/', (req, res) => {
 //    let token = req.headers['authorization'];

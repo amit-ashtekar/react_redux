@@ -41,7 +41,7 @@ export default class CheckoutSummary extends React.Component {
 
             <ul className="nav navbar-nav navbar-right" >
             <li >
-            <a href="#cart" ><span className="glyphicon glyphicon-shopping-cart" ></span><span className="badge" >3</span>
+            <a href="#cart" ><span className="glyphicon glyphicon-shopping-cart" ></span><span className="badge" >{this.props.count}</span>
             <span onClick={(e)=>this.openModal(e)}>Checkout</span>
                 <Modal
                 isOpen={this.state.modalIsOpen}
@@ -60,7 +60,7 @@ export default class CheckoutSummary extends React.Component {
                 </form>
                 </Modal>
             </a></li>
-             <li ><a href="https://www.coinbolt.com" >Return to Coinbolt</a></li>
+
              </ul>
             </span>
     );

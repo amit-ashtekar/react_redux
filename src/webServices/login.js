@@ -33,7 +33,7 @@ export function login(username,password){
             //localStorage.setItem("scope",resJson.scope)
 
             dispatch(loginSuccess(resJson))
-            dispatch(pushState(null, '/search'));
+            dispatch(pushState(null, '/itemcontainer'));
         }
     }).catch(err=>{
         dispatch(loginFail({status:"403",message:err}));
