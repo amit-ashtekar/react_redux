@@ -1,7 +1,7 @@
 /**
  * Created by amita on 3/18/2016.
  */
-import {receiveProducts,receiveProductsFail} from '../actions/itemActions';
+import {receiveProducts,receiveProductsFail,getAddedCartItem} from '../actions/itemActions';
 
 export function getItems(){
     return fetchItems(receiveProducts,receiveProductsFail)
@@ -18,14 +18,25 @@ export function getItems(){
                 .then(res=> res.json())
         .then(resJson=> {
             console.log("getItems: ",resJson)
-        dispatch(successDispach(resJson))
+        if(!itemArr) {
+            dispatch(successDispach(resJson))
+        }
+        else{
+            dispatch(successDispach(itemArr,resJson))
+        }
 
 
 
     }).catch(err=>{
         debugger;
-    dispatch(errorDispatch(err));
+     if(errorDispatch) {
+         dispatch(errorDispatch(err));
+     }
 })
 
 }
+}
+export function ModalItems(itemArr){
+
+    return fetchItems(getAddedCartItem,undefined,itemArr)
 }

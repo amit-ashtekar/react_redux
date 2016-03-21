@@ -21,7 +21,8 @@ export default class ModalItem extends React.Component {
 
     }
 
-    handleRemove(e) {
+    handleRemove(e,id) {
+        this.props.removeItem(id)
     }
 
     render () {
@@ -43,7 +44,7 @@ export default class ModalItem extends React.Component {
 <strong>{price}</strong>
 </td>
 <td className="col-sm-1 col-md-1">
-<button type="button" className="btn btn-danger" onClick={this.handleRemove}>
+<button type="button" className="btn btn-danger" onClick={(e)=>this.handleRemove(e,id)}>
 <span className="glyphicon glyphicon-remove"></span> Remove
 </button>
 </td>
