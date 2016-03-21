@@ -1,8 +1,8 @@
 /**
  * Created by amita on 3/17/2016.
  */
-import React from 'react';
-
+import React,{ PropTypes } from 'react';
+import {ModalItemContainer} from '../containers'
 import  Modal from 'react-modal';
 
 
@@ -52,11 +52,7 @@ export default class CheckoutSummary extends React.Component {
                 <button onClick={(e)=>this.closeModal(e)}>close</button>
                 <div>I am a modal</div>
                 <form>
-                <input />
-                <button>tab navigation</button>
-                <button>stays</button>
-                <button>inside</button>
-                <button>the modal</button>
+<ModalItemContainer />
                 </form>
                 </Modal>
             </a></li>
@@ -68,4 +64,7 @@ export default class CheckoutSummary extends React.Component {
 
 }
 
+CheckoutSummary.propTypes = {
+    children: PropTypes.node
+}
 

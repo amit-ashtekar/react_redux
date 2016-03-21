@@ -1,7 +1,7 @@
 /**
  * Created by amita on 3/18/2016.
  */
-import { ADD_TO_CART,CHECKOUT_REQUEST,CHECKOUT_SUCCESS,CHECKOUT_FAILURE,RECEIVE_PRODUCTS,RECEIVE_PRODUCTSFAIL} from '../../constants/checkoutConstants'
+import { ADD_TO_CART,CHECKOUT_REQUEST,CHECKOUT_SUCCESS,CHECKOUT_FAILURE,RECEIVE_PRODUCTS,RECEIVE_PRODUCTSFAIL,GET_ADDED_CART_ITEMS} from '../../constants/checkoutConstants'
 import {createConstants} from '../../utils';
 const InitialState={
     items:[],
@@ -36,5 +36,23 @@ export function AddedItemsCount(state = InitialState.addedItems.item, action) {
             return[
                 ...state
                  ]
+    }
+}
+export function GetCartAddedItems(state = InitialState.items, action) {
+    switch (action.type) {
+        case GET_ADDED_CART_ITEMS:
+       let filteredItems=     action.items.filter((todo,index)=>{
+                if(action.itemArr.indexOf(todo.id)!==-1){
+            return todo
+        }
+    }
+
+
+)
+
+    return  state.concat(filteredItems);
+        default:
+
+            return state
     }
 }

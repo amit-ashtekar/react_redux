@@ -9,7 +9,8 @@ export default createConstants(
     'CHECKOUT_SUCCESS',
     'CHECKOUT_FAILURE',
     'RECEIVE_PRODUCTS',
-    'RECEIVE_PRODUCTSFAIL'
+    'RECEIVE_PRODUCTSFAIL',
+    'GET_ADDED_CART_ITEMS'
 )
 
 

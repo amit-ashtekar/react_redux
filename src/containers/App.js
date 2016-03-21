@@ -6,6 +6,7 @@ import {bindActionCreators} from 'redux';
 import {logoutAndRedirect} from '../actions';
 import {CheckoutSummary} from '../views'
 
+
 import '../styles/core.scss';
 
 
@@ -29,8 +30,12 @@ export default class CoreLayout extends React.Component {
         <ul className="nav navbar-nav" >
         <li className="active" >   <Link className="navbar-brand" to="/">Home</Link></li>
         <li><Link className="navbar-brand" to="/login">Login</Link></li>
+        <li><Link className="navbar-brand" to="/modalitemcontainer">modalitemcontainer</Link></li>
+        <li><Link className="navbar-brand" to="/itemcontainer">itemcontainer</Link></li>
+
+
         </ul>
-        {this.props.statusText && this.props.isAuthenticated && <CheckoutSummary count={this.props.addeditemsCount}/>}
+        {this.props.statusText && this.props.isAuthenticated && <CheckoutSummary count={this.props.addeditemsCount} />}
         </div>
         </div>
         </div>

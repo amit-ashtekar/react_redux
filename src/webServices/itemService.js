@@ -4,22 +4,27 @@
 import {receiveProducts,receiveProductsFail} from '../actions/itemActions';
 
 export function getItems(){
+    return fetchItems(receiveProducts,receiveProductsFail)
+}
+
+ function fetchItems(successDispach,errorDispatch,itemArr){
     return function (dispatch) {
         let config={
             method: 'GET',
             headers: {  'Content-Type': 'application/json', 'Accept': 'application/json','authorization':'151561vdfvdbdbdb1561fdbdf' }
         };
-      
+
         return fetch('http://localhost:3000/getItems/',config)
                 .then(res=> res.json())
-                .then(resJson=> {
-                    console.log("getItems: ",resJson)
-                    dispatch(receiveProducts(resJson))
+        .then(resJson=> {
+            console.log("getItems: ",resJson)
+        dispatch(successDispach(resJson))
 
 
-                }).catch(err=>{
+
+    }).catch(err=>{
         debugger;
-                    dispatch(receiveProductsFail(err));
+    dispatch(errorDispatch(err));
 })
 
 }
