@@ -2,7 +2,7 @@
  * Created by amita on 3/18/2016.
  */
 
-import React from 'react';
+import React, {PropTypes } from 'react';
 import {ItemList} from '../views'
 import {Item} from '../views'
 import {bindActionCreators} from 'redux';
@@ -39,5 +39,11 @@ const mapDispatchToProps = (dispatch) => ({
       itemactions : bindActionCreators(itemActionCreators, dispatch),
     itemAddActionCreators: bindActionCreators(itemAddActionCreators, dispatch)
 })
+
+ItemContainer.defaultProps ={
+    products:[],
+    addeditemsId:0
+
+}
 
 export default connect(mapStateToProps,mapDispatchToProps)(ItemContainer);
