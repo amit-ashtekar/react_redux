@@ -7,6 +7,8 @@ import {logoutAndRedirect} from '../actions';
 import {CheckoutSummary} from '../views'
 
 
+
+
 import '../styles/core.scss';
 
 
@@ -18,34 +20,63 @@ export default class CoreLayout extends React.Component {
 
         return (
             <div>
-            <div className="navbar navbar-fixed-top navbar-inverse" role="navigation" >
-        <div className="container" >
+            <div className="brand">Shopping Cart</div>
+
+
+        <nav className="navbar navbar-default" role="navigation">
+        <div className="container">
+
         <div className="navbar-header">
-        <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span className="sr-only" >Toggle navigation</span><span className="icon-bar" ></span><span className="icon-bar" ></span><span className="icon-bar"></span>
+        <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span className="sr-only">Toggle navigation</span>
+        <span className="icon-bar"></span>
+        <span className="icon-bar"></span>
+        <span className="icon-bar"></span>
         </button>
 
+        <a className="navbar-brand" href="index.html">Business Casual</a>
         </div>
-        <div className="collapse navbar-collapse" >
-        <ul className="nav navbar-nav" >
-        <li className="active" >   <Link className="navbar-brand" to="/">Home</Link></li>
-        <li><Link className="navbar-brand" to="/login">Login</Link></li>
-       
 
+        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul className="nav navbar-nav">
+        <li>
+        <Link  to="/">Home</Link>
+        </li>
+        <li>
+        <Link  to="/login">Login</Link>
+        </li>
 
         </ul>
         {this.props.statusText && this.props.isAuthenticated && <CheckoutSummary count={this.props.addeditemsCount} />}
         </div>
+
+        </div>
+
+        </nav>
+
+        <div className="container">
+        <div className='row'>
+        <div className='col-xs-12'>
+        {this.props.children}
         </div>
         </div>
-                <div className='container'>
-                    <div className='row'>
-                        <div className='col-xs-12'>
-                            {this.props.children}
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+
+
+
+
+
+        </div>
+<footer>
+<div className="container">
+        <div className="row">
+        <div className="col-lg-12 text-center">
+        <p>Copyright &copy; Synerzip.com</p>
+</div>
+</div>
+</div>
+</footer>
+    </div>
 
         );
     }

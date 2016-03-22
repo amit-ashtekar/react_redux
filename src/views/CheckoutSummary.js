@@ -4,19 +4,25 @@
 import React,{ PropTypes } from 'react';
 import {ModalItemContainer} from '../containers'
 import  Modal from 'react-modal';
-
+import {Button} from 'react-bootstrap';
 
 export default class CheckoutSummary extends React.Component {
     constructor(props) {
         super(props);
        this.customStyles = {
             content : {
-                top                   : '50%',
-                left                  : '50%',
-                right                 : 'auto',
-                bottom                : 'auto',
-                marginRight           : '-50%',
-                transform             : 'translate(-50%, -50%)'
+                position                   : 'absolute',
+                top                        : '40px',
+                left                       : '40px',
+                right                      : '40px',
+                bottom                     : '40px',
+                border                     : '1px solid #ccc',
+                background                 : '#fff',
+                overflow                   : 'auto',
+                WebkitOverflowScrolling    : 'touch',
+                borderRadius               : '4px',
+                outline                    : 'none',
+                padding                    : '20px'
             }
         };
         this.state = {
@@ -48,12 +54,33 @@ export default class CheckoutSummary extends React.Component {
                 onRequestClose={this.closeModal}
                 style={this.customStyles} >
 
-                <h2>Hello</h2>
-                <button onClick={(e)=>this.closeModal(e)}>close</button>
-                <div>I am a modal</div>
+                <h2 className="text-center">Cart</h2>
+
+
+
                 <form>
+<table className="table table-hover">
+<thead>
+<tr>
+<th className="col-sm-4 col-md-4">
+    <h4>
+Item
+    </h4>
+</th>
+<th className="col-sm-1 col-md-1">
+    <h4>
+Price
+    </h4>
+</th>
+</tr>
+</thead>
+<tbody>
+    </tbody>
+    </table>
 <ModalItemContainer />
+
                 </form>
+<Button bsSize="large" active onClick={(e)=>this.closeModal(e)}>Close</Button>
                 </Modal>
             </a></li>
 

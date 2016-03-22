@@ -34,7 +34,7 @@ export default class ModalItemContainer extends React.Component {
     render() {
         const { addedItems } = this.props
         return (
-
+        <div className="box">
             <ModalItemList >
             {addedItems.map(product =>
             <ModalItem
@@ -45,6 +45,7 @@ export default class ModalItemContainer extends React.Component {
 />
 )}
 </ModalItemList>
+    </div>
 
 )
 }

@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-jwt-auth-example",
+  "name": "react_redux",
   "version": "0.1.0",
-  "description": "Authentication with React, Redux, and JWT!",
+  "description": "React with Redux demo example",
   "main": "index.js",
   "scripts": {
     "compile": "NODE_ENV=production webpack",
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/joshgeller/react-redux-jwt-auth-example.git"
   },
-  "author": "Josh Geller <joshualgeller@gmail.com>",
+  "author": "Amit Ashtekar <amitnashtekar@gmail.com@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "babel": "^5.8.23",

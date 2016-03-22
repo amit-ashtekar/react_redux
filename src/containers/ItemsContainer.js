@@ -17,6 +17,7 @@ export default class ItemContainer extends React.Component {
     render() {
         const { products,addeditemsId } = this.props
         return (
+                <div className="box">
             <ItemList >
         {products.map(product =>
         <Item
@@ -27,6 +28,7 @@ export default class ItemContainer extends React.Component {
      />
 )}
 </ItemList>
+    </div>
 )
 }
 }

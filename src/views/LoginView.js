@@ -3,6 +3,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actionCreators from '../actions';
 import * as loginactionCreators from '../webServices';
+import {Button, NavBrand, Nav, NavItem} from 'react-bootstrap';
 
 
 export class LoginView extends React.Component {
@@ -32,16 +33,17 @@ export class LoginView extends React.Component {
   render () {
     return (
         <div>
+            <div className="box">
         <input type='text' ref='username' className="form-control"  placeholder='Username'/>
     <input type='text' ref='password' className="form-control"  placeholder='Password'/>
-    <button onClick={(e)=>this.handleClick(e)} className="btn btn-primary"  > Login
-    </button>
+    <Button onClick={(e)=>this.handleClick(e)}  > Login
+    </Button>
 
     { this.props.statusText && !this.props.isAuthenticated ?
 <div className='alert alert-info'>Invalid Credentials</div>
  :''
 }
-
+</div>
 </div>
     );
   }

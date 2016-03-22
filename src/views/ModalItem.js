@@ -27,29 +27,32 @@ export default class ModalItem extends React.Component {
 
     render () {
         const {id, price, quantity, title } = this.props.product
+        const tdstyle = {
+            'padding-top': '2%'
+        };
         return (
                 <table>
-            <tr>
-            <td>
-            <div className="media">
 
-<div className="media-body">
+            <tr  >
+            <td className="col-sm-9 col-md-9" style={tdstyle}>
+
     <h4 className="media-heading">
-    <a href="#">{title}</a>
+    {title}
 </h4>
-</div>
-</div>
-</td>
-<td className="col-sm-1 col-md-1 text-center">
-<strong>{price}</strong>
+
 </td>
 <td className="col-sm-1 col-md-1">
+<strong>{price}</strong>
+</td>
+<td className="col-sm-1 col-md-1" >
 <button type="button" className="btn btn-danger" onClick={(e)=>this.handleRemove(e,id)}>
 <span className="glyphicon glyphicon-remove"></span> Remove
 </button>
 </td>
 </tr>
+
         </table>
+
 
                 );
                 }
