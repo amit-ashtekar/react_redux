@@ -18,7 +18,7 @@ export default class Item extends React.Component {
 
         return (
             <div> {id}:{title} - &#36;{price} {quantity ? `x ${quantity}` : null}
-                <button
+                <button type="button" disabled={this.props.addedItemId.indexOf(id)===-1 ? '' : 'disabled'}
                     onClick={(e)=>this.onAddToCartClicked(e,id)} >
                     Add to cart
                 </button>

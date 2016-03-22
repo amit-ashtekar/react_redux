@@ -15,13 +15,14 @@ export default class ItemContainer extends React.Component {
       this.props.itemactions.getItems();
     }
     render() {
-        const { products } = this.props
+        const { products,addeditemsId } = this.props
         return (
             <ItemList >
         {products.map(product =>
         <Item
         key={product.id}
     product={product}
+    addedItemId={addeditemsId}
         itemAddAction={this.props.itemAddActionCreators.addItemToCart}
      />
 )}
@@ -30,7 +31,8 @@ export default class ItemContainer extends React.Component {
 }
 }
 const mapStateToProps = (state) => ({
-    products   : state.Items[0]
+    products   : state.Items[0],
+    addeditemsId:state.AddedItemsCount,
 
 });
 const mapDispatchToProps = (dispatch) => ({

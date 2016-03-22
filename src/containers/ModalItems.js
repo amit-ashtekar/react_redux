@@ -1,9 +1,7 @@
 /**
  * Created by amita on 3/21/2016.
  */
-/**
- * Created by amita on 3/18/2016.
- */
+
 
 import React from 'react';
 import {ModalItemList} from '../views'

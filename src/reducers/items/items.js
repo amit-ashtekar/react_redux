@@ -31,6 +31,12 @@ export function AddedItemsCount(state = InitialState.addedItems.item, action) {
                 ...state,
                 action.itemid
                  ]
+        case REMOVE_FROM_CART:
+            let filteredItemIndex=   state.indexOf(action.itemid)
+            return[
+                ...state.slice(0,filteredItemIndex),
+                ...state.slice(filteredItemIndex+1)
+            ]
         default:
 
             return[
