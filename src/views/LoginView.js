@@ -32,13 +32,16 @@ export class LoginView extends React.Component {
 
   render () {
           const inputStyle={
-            'margin-bottom': '2%'
+            'margin-bottom': '6%'
           }
+    const inputtopStyle={
+      'margin-top': '4%'
+    }
     return (
         <div>
         <div className="col-xs-6 col-md-offset-3">
             <div className="box">
-        <input type='text' ref='username' className="form-control"   placeholder='Username'/>
+        <input type='text' ref='username' className="form-control" style={inputtopStyle}   placeholder='Username'/>
     <input type='text' ref='password' className="form-control" style={inputStyle}  placeholder='Password'/>
     <Button className="btn-block"  onClick={(e)=>this.handleClick(e)}  > Login
     </Button>
