@@ -7,6 +7,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actionCreators from '../actions';
 import * as loginactionCreators from '../webServices';
+import {Button} from 'react-bootstrap';
 
 
 export default class ModalItem extends React.Component {
@@ -45,9 +46,9 @@ export default class ModalItem extends React.Component {
 <strong>{price}</strong>
 </td>
 <td className="col-sm-1 col-md-1" >
-<button type="button" className="btn btn-danger" onClick={(e)=>this.handleRemove(e,id)}>
+<Button type="button" className="btn btn-danger" onClick={(e)=>this.handleRemove(e,id)}>
 <span className="glyphicon glyphicon-remove"></span> Remove
-</button>
+</Button>
 </td>
 </tr>
 

@@ -78,9 +78,18 @@ Price
     </tbody>
     </table>
 <ModalItemContainer />
-
+<footer>
+<div className="container">
+<div className="row">
+<div className="col-lg-12">
+<Button className="pull-right" active onClick={(e)=>this.closeModal(e)}>Close</Button>
+</div>
+</div>
+</div>
+</footer>
                 </form>
-<Button bsSize="large" active onClick={(e)=>this.closeModal(e)}>Close</Button>
+
+
                 </Modal>
             </a></li>
 
