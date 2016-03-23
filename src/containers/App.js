@@ -56,9 +56,9 @@ export default class CoreLayout extends React.Component {
 
         <div className="container">
         <div className='row'>
-        <div className='col-xs-12'>
+
         {this.props.children}
-        </div>
+
         </div>
 
 
